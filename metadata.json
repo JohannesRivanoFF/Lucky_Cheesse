@@ -1,0 +1,6 @@
+{
+  "name": "Lucky Cheese Kediri",
+  "description": "Lucky Cheese Kediri - Korean Cheese Coin Pancake Mozzarella yang Meleleh di Setiap Gigitan. Dark luxury culinary experience with interactive menu, cart, and WhatsApp pre-order.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
