@@ -1,1295 +1,1234 @@
 <!doctype html>
 <html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucky Cheese Kediri | Korean Cheese Coin Pancake</title>
+    <meta name="description" content="Lucky Cheese Kediri - Korean Cheese Coin Pancake Mozzarella yang Meleleh di Setiap Gigitan. Pre-order sekarang, datang tinggal ambil tanpa perlu antre panjang." />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lucky Cheese Kediri | Korean Cheese Coin Pancake</title>
-  <meta name="description"
-    content="Lucky Cheese Kediri - Korean Cheese Coin Pancake Mozzarella yang Meleleh di Setiap Gigitan. Pre-order sekarang, datang tinggal ambil tanpa perlu antre panjang." />
-  <meta property="og:title" content="Lucky Cheese Kediri | Korean Cheese Coin Pancake" />
-  <meta property="og:description"
-    content="Mozzarella yang meleleh di setiap gigitan. Pre-order online, bayar QRIS praktis, dan nikmati pancake koin Korea hangat." />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Lucky Cheese Kediri | Korean Cheese Coin Pancake" />
+    <meta property="og:description" content="Mozzarella yang meleleh di setiap gigitan. Pre-order online, bayar QRIS praktis, dan nikmati pancake koin Korea hangat." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/lucky_cheese_hero_1790606330960.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/images/lucky_cheese_hero_1790606330960.jpg" />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧀</text></svg>" />
 
-  <!-- FontAwesome 6 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              dark: '#0b0c10',
-              charcoal: '#121212',
-              surface: '#18181c',
-              card: '#1e1e24',
-              border: '#2a2a35',
-              amber: '#ffb800',
-              orange: '#ff7a00',
-              deepOrange: '#e65100',
-              gold: '#ffd700',
-              emerald: '#10b981',
-              cream: '#f8f9fa',
-              muted: '#a0a0aa'
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                dark: '#0b0c10',
+                charcoal: '#121212',
+                surface: '#18181c',
+                card: '#1e1e24',
+                border: '#2a2a35',
+                amber: '#ffb800',
+                orange: '#ff7a00',
+                deepOrange: '#e65100',
+                gold: '#ffd700',
+                emerald: '#10b981',
+                cream: '#f8f9fa',
+                muted: '#a0a0aa'
+              }
+            },
+            fontFamily: {
+              serif: ['"Cormorant Garamond"', 'Playfair Display', 'serif'],
+              display: ['"Playfair Display"', 'Cormorant Garamond', 'serif'],
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
             }
-          },
-          fontFamily: {
-            serif: ['"Cormorant Garamond"', 'Playfair Display', 'serif'],
-            display: ['"Playfair Display"', 'Cormorant Garamond', 'serif'],
-            sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
           }
         }
       }
-    }
-  </script>
+    </script>
 
-  <style>
-    /* Luxury Dark Culinary Custom Styling */
-    body {
-      background-color: #0b0c10;
-      color: #f8f9fa;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      overflow-x: hidden;
-    }
-
-    .gold-gradient {
-      background: linear-gradient(135deg, #FFF6D6 0%, #FFB800 50%, #FF7A00 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .amber-glow-btn {
-      background: linear-gradient(135deg, #ff7a00 0%, #ff9500 50%, #ffb800 100%);
-      box-shadow: 0 4px 20px -2px rgba(255, 122, 0, 0.45);
-      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    .amber-glow-btn:hover {
-      box-shadow: 0 6px 28px 0 rgba(255, 122, 0, 0.65);
-      transform: translateY(-2px);
-    }
-
-    .glass-panel {
-      background: rgba(30, 30, 36, 0.75);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-    }
-
-    .food-card {
-      background: rgba(26, 26, 32, 0.85);
-      backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    .food-card:hover {
-      transform: translateY(-4px);
-      border-color: rgba(255, 184, 0, 0.35);
-      box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.85), 0 0 24px -6px rgba(255, 122, 0, 0.25);
-    }
-
-    .ambient-glow {
-      position: absolute;
-      border-radius: 9999px;
-      filter: blur(100px);
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* Custom Scrollbar */
-    ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
-    }
-
-    ::-webkit-scrollbar-track {
-      background: #0b0c10;
-    }
-
-    ::-webkit-scrollbar-thumb {
-      background: #2a2a35;
-      border-radius: 4px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-      background: #ff7a00;
-    }
-
-    /* Animation Marquee */
-    @keyframes ticker {
-      0% {
-        transform: translateX(0);
+    <style>
+      /* Luxury Dark Culinary Custom Styling */
+      body {
+        background-color: #0b0c10;
+        color: #f8f9fa;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        overflow-x: hidden;
       }
 
-      100% {
-        transform: translateX(-50%);
+      .gold-gradient {
+        background: linear-gradient(135deg, #FFF6D6 0%, #FFB800 50%, #FF7A00 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
-    }
 
-    .animate-marquee {
-      display: flex;
-      width: max-content;
-      animation: ticker 30s linear infinite;
-    }
+      .amber-glow-btn {
+        background: linear-gradient(135deg, #ff7a00 0%, #ff9500 50%, #ffb800 100%);
+        box-shadow: 0 4px 20px -2px rgba(255, 122, 0, 0.45);
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .amber-glow-btn:hover {
+        box-shadow: 0 6px 28px 0 rgba(255, 122, 0, 0.65);
+        transform: translateY(-2px);
+      }
 
-    .animate-marquee:hover {
-      animation-play-state: paused;
-    }
-  </style>
-</head>
+      .glass-panel {
+        background: rgba(30, 30, 36, 0.75);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
 
-<body class="selection:bg-amber-500/30 selection:text-amber-200">
+      .food-card {
+        background: rgba(26, 26, 32, 0.85);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .food-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(255, 184, 0, 0.35);
+        box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.85), 0 0 24px -6px rgba(255, 122, 0, 0.25);
+      }
 
-  <!-- Ambient Glowing Orbs -->
-  <div class="ambient-glow w-96 h-96 bg-amber-500/10 -top-20 -left-20"></div>
-  <div class="ambient-glow w-[500px] h-[500px] bg-orange-600/10 top-1/4 -right-40"></div>
-  <div class="ambient-glow w-[600px] h-[600px] bg-amber-600/10 top-2/3 -left-40"></div>
+      .ambient-glow {
+        position: absolute;
+        border-radius: 9999px;
+        filter: blur(100px);
+        pointer-events: none;
+        z-index: 0;
+      }
 
-  <!-- ANNOUNCEMENT TICKER BAR -->
-  <aside
-    class="relative z-50 bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 text-black py-2 overflow-hidden text-xs md:text-sm font-semibold tracking-wide shadow-md">
-    <div class="animate-marquee flex items-center space-x-12 whitespace-nowrap">
-      <span class="flex items-center gap-2"><i class="fa-solid fa-gift"></i> ðŸŽ‰ Buy 2 Free 1 - Opening Promo</span>
-      <span class="text-black/40">|</span>
-      <span class="flex items-center gap-2"><i class="fa-solid fa-qrcode"></i> ðŸ’³ Bayar QRIS Lebih Praktis (Semua
-        e-Wallet & M-Banking)</span>
-      <span class="text-black/40">|</span>
-      <span class="flex items-center gap-2"><i class="fa-solid fa-receipt"></i> ðŸ§¾ Jaminan Layanan: Gratis jika tidak
-        dapat struk!</span>
-      <span class="text-black/40">|</span>
-      <span class="flex items-center gap-2"><i class="fa-solid fa-cheese"></i> ðŸ§€ 100% Real Stretchy Mozzarella
-        Cheese</span>
-      <span class="text-black/40">|</span>
-      <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot"></i> ðŸ“ Gerai Kota Kediri â€” Buka
-        Setiap Hari 12:00 - 21:00 WIB</span>
-      <span class="text-black/40">|</span>
-      <!-- Duplicated for seamless loop -->
-      <span class="flex items-center gap-2"><i class="fa-solid fa-gift"></i> ðŸŽ‰ Buy 2 Free 1 - Opening Promo</span>
-      <span class="text-black/40">|</span>
-      <span class="flex items-center gap-2"><i class="fa-solid fa-qrcode"></i> ðŸ’³ Bayar QRIS Lebih Praktis (Semua
-        e-Wallet & M-Banking)</span>
-      <span class="text-black/40">|</span>
-      <span class="flex items-center gap-2"><i class="fa-solid fa-receipt"></i> ðŸ§¾ Jaminan Layanan: Gratis jika tidak
-        dapat struk!</span>
-      <span class="text-black/40">|</span>
-      <span class="flex items-center gap-2"><i class="fa-solid fa-cheese"></i> ðŸ§€ 100% Real Stretchy Mozzarella
-        Cheese</span>
-      <span class="text-black/40">|</span>
-      <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot"></i> ðŸ“ Gerai Kota Kediri â€” Buka
-        Setiap Hari 12:00 - 21:00 WIB</span>
-    </div>
-  </aside>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0b0c10;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2a2a35;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #ff7a00;
+      }
 
-  <!-- STICKY NAVBAR -->
-  <header
-    class="sticky top-0 z-40 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/5 transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      /* Animation Marquee */
+      @keyframes ticker {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      .animate-marquee {
+        display: flex;
+        width: max-content;
+        animation: ticker 30s linear infinite;
+      }
+      .animate-marquee:hover {
+        animation-play-state: paused;
+      }
+    </style>
+  </head>
+  <body class="selection:bg-amber-500/30 selection:text-amber-200">
 
-      <!-- Brand Wordmark -->
-      <a href="#beranda" class="flex items-center gap-3 group">
-        <div
-          class="w-11 h-11 rounded-full bg-gradient-to-tr from-orange-500 to-amber-400 flex items-center justify-center text-black font-bold text-xl shadow-lg shadow-orange-500/30 group-hover:scale-105 transition-transform">
-          <i class="fa-solid fa-coins"></i>
-        </div>
-        <div class="flex flex-col">
-          <div class="flex items-center gap-2">
-            <span
-              class="font-serif text-2xl font-bold tracking-tight text-white group-hover:text-amber-300 transition-colors">Lucky
-              Cheese</span>
-            <span
-              class="text-[10px] tracking-wider uppercase px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30 font-medium">Kediri</span>
+    <!-- Ambient Glowing Orbs -->
+    <div class="ambient-glow w-96 h-96 bg-amber-500/10 -top-20 -left-20"></div>
+    <div class="ambient-glow w-[500px] h-[500px] bg-orange-600/10 top-1/4 -right-40"></div>
+    <div class="ambient-glow w-[600px] h-[600px] bg-amber-600/10 top-2/3 -left-40"></div>
+
+    <!-- ANNOUNCEMENT TICKER BAR -->
+    <aside class="relative z-50 bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 text-black py-2 overflow-hidden text-xs md:text-sm font-semibold tracking-wide shadow-md">
+      <div class="animate-marquee flex items-center space-x-12 whitespace-nowrap">
+        <span class="flex items-center gap-2"><i class="fa-solid fa-gift"></i> 🎉 Buy 2 Free 1 - Opening Promo</span>
+        <span class="text-black/40">|</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-qrcode"></i> 💳 Bayar QRIS Lebih Praktis (Semua e-Wallet & M-Banking)</span>
+        <span class="text-black/40">|</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-receipt"></i> 🧾 Jaminan Layanan: Gratis jika tidak dapat struk!</span>
+        <span class="text-black/40">|</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-cheese"></i> 🧀 100% Real Stretchy Mozzarella Cheese</span>
+        <span class="text-black/40">|</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot"></i> 📍 Gerai Kota Kediri — Buka Setiap Hari 12:00 - 21:00 WIB</span>
+        <span class="text-black/40">|</span>
+        <!-- Duplicated for seamless loop -->
+        <span class="flex items-center gap-2"><i class="fa-solid fa-gift"></i> 🎉 Buy 2 Free 1 - Opening Promo</span>
+        <span class="text-black/40">|</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-qrcode"></i> 💳 Bayar QRIS Lebih Praktis (Semua e-Wallet & M-Banking)</span>
+        <span class="text-black/40">|</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-receipt"></i> 🧾 Jaminan Layanan: Gratis jika tidak dapat struk!</span>
+        <span class="text-black/40">|</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-cheese"></i> 🧀 100% Real Stretchy Mozzarella Cheese</span>
+        <span class="text-black/40">|</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot"></i> 📍 Gerai Kota Kediri — Buka Setiap Hari 12:00 - 21:00 WIB</span>
+      </div>
+    </aside>
+
+    <!-- STICKY NAVBAR -->
+    <header class="sticky top-0 z-40 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/5 transition-all duration-300">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+        
+        <!-- Brand Wordmark -->
+        <a href="#beranda" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-orange-500 to-amber-400 flex items-center justify-center text-black font-bold text-xl shadow-lg shadow-orange-500/30 group-hover:scale-105 transition-transform">
+            <i class="fa-solid fa-coins"></i>
           </div>
-          <span class="text-[11px] text-zinc-400 font-normal">Korean Cheese Coin Pancake Â· ëŸ­í‚¤ì¹˜ì¦ˆ</span>
-        </div>
-      </a>
-
-      <!-- Navigation Links -->
-      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-300">
-        <a href="#beranda" class="hover:text-amber-400 transition-colors">Beranda</a>
-        <a href="#menu" class="hover:text-amber-400 transition-colors">Menu Pilihan</a>
-        <a href="#dubai-royale" class="hover:text-amber-400 text-amber-300 flex items-center gap-1.5 transition-colors">
-          <i class="fa-solid fa-crown text-xs text-amber-400"></i> Dubai Royale
+          <div class="flex flex-col">
+            <div class="flex items-center gap-2">
+              <span class="font-serif text-2xl font-bold tracking-tight text-white group-hover:text-amber-300 transition-colors">Lucky Cheese</span>
+              <span class="text-[10px] tracking-wider uppercase px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30 font-medium">Kediri</span>
+            </div>
+            <span class="text-[11px] text-zinc-400 font-normal">Korean Cheese Coin Pancake · 럭키치즈</span>
+          </div>
         </a>
-        <a href="#keunggulan" class="hover:text-amber-400 transition-colors">Detail Produk</a>
-        <a href="#gerai" class="hover:text-amber-400 transition-colors">Tentang & Gerai</a>
-      </nav>
 
-      <!-- Right Action: Cart & Mobile Button -->
-      <div class="flex items-center gap-3">
-        <!-- Dynamic Cart Button -->
-        <button id="openCartBtn"
-          class="flex items-center gap-3 px-4 py-2.5 rounded-full bg-zinc-900 border border-amber-500/30 hover:border-amber-400 hover:bg-zinc-800 transition-all text-sm group">
-          <div class="relative">
-            <i class="fa-solid fa-cart-shopping text-amber-400 group-hover:scale-110 transition-transform"></i>
-            <span id="cartCountBadge"
-              class="absolute -top-2.5 -right-3 w-5 h-5 bg-gradient-to-r from-orange-500 to-amber-500 text-black text-[11px] font-extrabold rounded-full flex items-center justify-center shadow">
-              0
+        <!-- Navigation Links -->
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-300">
+          <a href="#beranda" class="hover:text-amber-400 transition-colors">Beranda</a>
+          <a href="#menu" class="hover:text-amber-400 transition-colors">Menu Pilihan</a>
+          <a href="#dubai-royale" class="hover:text-amber-400 text-amber-300 flex items-center gap-1.5 transition-colors">
+            <i class="fa-solid fa-crown text-xs text-amber-400"></i> Dubai Royale
+          </a>
+          <a href="#keunggulan" class="hover:text-amber-400 transition-colors">Detail Produk</a>
+          <a href="#gerai" class="hover:text-amber-400 transition-colors">Tentang & Gerai</a>
+        </nav>
+
+        <!-- Right Action: Cart & Mobile Button -->
+        <div class="flex items-center gap-3">
+          <!-- Dynamic Cart Button -->
+          <button id="openCartBtn" class="flex items-center gap-3 px-4 py-2.5 rounded-full bg-zinc-900 border border-amber-500/30 hover:border-amber-400 hover:bg-zinc-800 transition-all text-sm group">
+            <div class="relative">
+              <i class="fa-solid fa-cart-shopping text-amber-400 group-hover:scale-110 transition-transform"></i>
+              <span id="cartCountBadge" class="absolute -top-2.5 -right-3 w-5 h-5 bg-gradient-to-r from-orange-500 to-amber-500 text-black text-[11px] font-extrabold rounded-full flex items-center justify-center shadow">
+                0
+              </span>
+            </div>
+            <span class="hidden sm:inline font-medium text-zinc-200">Keranjang</span>
+            <span id="navCartTotal" class="hidden sm:inline text-xs font-semibold text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">
+              Rp 0
             </span>
-          </div>
-          <span class="hidden sm:inline font-medium text-zinc-200">Keranjang</span>
-          <span id="navCartTotal"
-            class="hidden sm:inline text-xs font-semibold text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">
-            Rp 0
-          </span>
-        </button>
+          </button>
 
-        <!-- Mobile Menu Trigger -->
-        <button id="mobileMenuBtn" aria-label="Toggle Menu"
-          class="md:hidden p-2.5 text-zinc-400 hover:text-white rounded-lg bg-zinc-900 border border-zinc-800">
-          <i class="fa-solid fa-bars text-lg"></i>
-        </button>
-      </div>
-    </div>
-
-    <!-- Mobile Dropdown Menu -->
-    <div id="mobileMenu" class="hidden md:hidden bg-zinc-950/95 border-b border-zinc-800 px-6 py-4 space-y-3">
-      <a href="#beranda" class="block text-zinc-200 hover:text-amber-400 py-2 border-b border-zinc-900">Beranda</a>
-      <a href="#menu" class="block text-zinc-200 hover:text-amber-400 py-2 border-b border-zinc-900">Menu Pilihan</a>
-      <a href="#dubai-royale" class="block text-amber-300 hover:text-amber-400 py-2 border-b border-zinc-900">ðŸŒŸ Dubai
-        Pistachio Royale</a>
-      <a href="#keunggulan" class="block text-zinc-200 hover:text-amber-400 py-2 border-b border-zinc-900">Detail Produk
-        & Rasa</a>
-      <a href="#gerai" class="block text-zinc-200 hover:text-amber-400 py-2">Info Gerai & Lokasi</a>
-    </div>
-  </header>
-
-  <main>
-    <!-- HERO SECTION -->
-    <section id="beranda" class="relative pt-8 pb-20 md:pt-16 md:pb-28 overflow-hidden">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-
-          <!-- Left Hero Content -->
-          <div class="lg:col-span-7 space-y-6 text-left relative z-10">
-            <div
-              class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs md:text-sm font-medium tracking-wide">
-              <i class="fa-solid fa-star text-amber-400 text-xs"></i>
-              <span>Korean Cheese Coin Pancake Kediri</span>
-              <span class="text-zinc-600"></span>
-              <span class="text-zinc-400"></span>
-            </div>
-
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.15]">
-              Mozzarella yang <br class="hidden sm:inline" />
-              <span class="gold-gradient italic font-serif">Meleleh</span> di Setiap Gigitan.
-            </h1>
-
-            <p class="text-base sm:text-lg text-zinc-300 max-w-xl leading-relaxed font-normal">
-              Pre-order sekarang, datang tinggal ambil. Tidak perlu antre panjang pesananmu sudah siap dan hangat
-              saat kamu tiba di gerai.
-            </p>
-
-            <!-- CTA Buttons -->
-            <div class="flex flex-wrap items-center gap-4 pt-2">
-              <a href="#menu"
-                class="amber-glow-btn px-7 py-3.5 rounded-full text-black font-bold text-sm sm:text-base flex items-center gap-2.5">
-                <i class="fa-solid fa-utensils"></i>
-                <span>Lihat Menu & Pesan</span>
-              </a>
-              <a href="#gerai"
-                class="px-6 py-3.5 rounded-full bg-zinc-900/80 hover:bg-zinc-800 border border-zinc-700/60 hover:border-zinc-500 text-zinc-200 font-semibold text-sm sm:text-base flex items-center gap-2 transition-all">
-                <i class="fa-solid fa-store text-amber-400"></i>
-                <span>Info Gerai Kediri</span>
-              </a>
-            </div>
-
-            <!-- Highlight Stats extracted from Reference -->
-            <div class="grid grid-cols-3 gap-4 pt-8 border-t border-zinc-800/80 max-w-lg">
-              <div class="space-y-1">
-                <div class="text-2xl sm:text-3xl font-bold font-serif text-white flex items-baseline gap-1">
-                  <span class="gold-gradient">19K</span>
-                </div>
-                <div class="text-xs sm:text-sm text-zinc-400">Mulai dari</div>
-              </div>
-
-              <div class="space-y-1">
-                <div class="text-2xl sm:text-3xl font-bold font-serif text-white flex items-baseline gap-1">
-                  <span class="gold-gradient">12+</span>
-                </div>
-                <div class="text-xs sm:text-sm text-zinc-400">Varian menu</div>
-              </div>
-
-              <div class="space-y-1">
-                <div class="text-2xl sm:text-3xl font-bold font-serif text-white flex items-baseline gap-1">
-                  <span class="gold-gradient">12-21</span>
-                </div>
-                <div class="text-xs sm:text-sm text-zinc-400">Jam buka</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right Hero Visual Showcase -->
-          <div class="lg:col-span-5 relative">
-            <!-- Golden backplate halo -->
-            <div
-              class="absolute inset-0 bg-gradient-to-tr from-amber-600/25 via-orange-500/20 to-transparent rounded-3xl filter blur-2xl transform scale-95 -z-10">
-            </div>
-
-            <div
-              class="relative rounded-3xl overflow-hidden border border-amber-500/30 p-2 bg-gradient-to-b from-zinc-800/50 to-zinc-950/80 shadow-2xl">
-              <div class="relative h-[380px] sm:h-[440px] rounded-2xl overflow-hidden group">
-                <img src="public/images/lucky_cheese_hero_1790606330960.jpg"
-                  alt="Lucky Cheese Korean Cheese Coin Pancake Mozzarella Pull"
-                  class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700"
-                  loading="eager" />
-
-                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
-
-                <!-- Floating Feature Badges -->
-                <div
-                  class="absolute bottom-4 left-4 right-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-3.5 rounded-xl bg-zinc-950/80 backdrop-blur-md border border-amber-500/30">
-                  <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center text-amber-400">
-                      <i class="fa-solid fa-fire-burner text-lg"></i>
-                    </div>
-                    <div>
-                      <div class="text-sm font-bold text-white">Freshly Baked to Order</div>
-                      <div class="text-xs text-amber-300/80">3-5 Menit Panas & Krispi</div>
-                    </div>
-                  </div>
-                  <div
-                    class="px-2.5 py-1 rounded bg-amber-400 text-black text-xs font-bold tracking-wide flex items-center gap-1">
-                    <i class="fa-solid fa-cheese"></i> 15cm Cheese Pull
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Little floating coin stamp -->
-            <div
-              class="absolute -top-4 -right-4 bg-gradient-to-tr from-amber-500 to-yellow-300 text-black p-4 rounded-2xl shadow-xl flex flex-col items-center justify-center border-2 border-black/40 rotate-6 hidden sm:flex">
-              <span class="text-[10px] uppercase font-black tracking-wider">10-Won Coin</span>
-              <span class="text-lg font-black font-serif">Original</span>
-              <span class="text-[10px] font-bold text-zinc-900">Kediri Hits</span>
-            </div>
-          </div>
-
+          <!-- Mobile Menu Trigger -->
+          <button id="mobileMenuBtn" aria-label="Toggle Menu" class="md:hidden p-2.5 text-zinc-400 hover:text-white rounded-lg bg-zinc-900 border border-zinc-800">
+            <i class="fa-solid fa-bars text-lg"></i>
+          </button>
         </div>
       </div>
-    </section>
 
-    <!-- SPECIAL LAUNCH SECTION: DUBAI PISTACHIO ROYALE -->
-    <section id="dubai-royale" class="py-14 relative z-10">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div
-          class="relative rounded-3xl overflow-hidden border border-amber-500/40 bg-gradient-to-br from-[#151c14] via-[#16161c] to-[#1a120c] p-6 sm:p-10 shadow-2xl">
+      <!-- Mobile Dropdown Menu -->
+      <div id="mobileMenu" class="hidden md:hidden bg-zinc-950/95 border-b border-zinc-800 px-6 py-4 space-y-3">
+        <a href="#beranda" class="block text-zinc-200 hover:text-amber-400 py-2 border-b border-zinc-900">Beranda</a>
+        <a href="#menu" class="block text-zinc-200 hover:text-amber-400 py-2 border-b border-zinc-900">Menu Pilihan</a>
+        <a href="#dubai-royale" class="block text-amber-300 hover:text-amber-400 py-2 border-b border-zinc-900">🌟 Dubai Pistachio Royale</a>
+        <a href="#keunggulan" class="block text-zinc-200 hover:text-amber-400 py-2 border-b border-zinc-900">Detail Produk & Rasa</a>
+        <a href="#gerai" class="block text-zinc-200 hover:text-amber-400 py-2">Info Gerai & Lokasi</a>
+      </div>
+    </header>
 
-          <!-- Background Glow & Accents -->
-          <div
-            class="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full filter blur-3xl pointer-events-none">
-          </div>
-          <div
-            class="absolute bottom-0 left-0 w-96 h-96 bg-amber-500/10 rounded-full filter blur-3xl pointer-events-none">
-          </div>
-
-          <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-
-            <!-- Left Content -->
-            <div class="lg:col-span-7 space-y-4">
-              <div
-                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400 text-black text-xs font-bold tracking-wide shadow">
-                <i class="fa-solid fa-sparkles"></i>
-                <span>Special Launch</span>
+    <main>
+      <!-- HERO SECTION -->
+      <section id="beranda" class="relative pt-8 pb-20 md:pt-16 md:pb-28 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+            
+            <!-- Left Hero Content -->
+            <div class="lg:col-span-7 space-y-6 text-left relative z-10">
+              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs md:text-sm font-medium tracking-wide">
+                <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+                <span>Korean Cheese Coin Pancake Kediri</span>
+                <span class="text-zinc-600">·</span>
+                <span class="text-zinc-400">럭키치즈 코인빵</span>
               </div>
 
-              <h2 class="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-white">
-                Lucky Cheese <span class="gold-gradient">Dubai Pistachio</span> Royale
-              </h2>
+              <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.15]">
+                Mozzarella yang <br class="hidden sm:inline" />
+                <span class="gold-gradient italic font-serif">Meleleh</span> di Setiap Gigitan.
+              </h1>
 
-              <p class="text-zinc-300 text-base sm:text-lg leading-relaxed">
-                Perpaduan mozzarella premium dengan pistachio khas Dubai dalam pancake coin Korea. Gurihnya keju berpadu
-                manis mewahnya krim pistachio dan kriuknya kunafa kataifi panggang.
+              <p class="text-base sm:text-lg text-zinc-300 max-w-xl leading-relaxed font-normal">
+                Pre-order sekarang, datang tinggal ambil. Tidak perlu antre panjang — pesananmu sudah siap dan hangat saat kamu tiba di gerai.
               </p>
 
-              <!-- 2 Dubai Pistachio Items -->
-              <div class="space-y-3 pt-2">
-                <!-- Item 1 -->
-                <div
-                  class="flex items-center justify-between p-4 rounded-2xl bg-black/40 border border-white/10 hover:border-amber-400/40 transition-all group">
-                  <div class="space-y-0.5">
-                    <div class="flex items-center gap-2">
-                      <h3
-                        class="text-base sm:text-lg font-bold text-white group-hover:text-amber-300 transition-colors">
-                        Mozza & Pistachio Kunafa
-                      </h3>
-                      <span
-                        class="text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-800 px-2 py-0.5 rounded">Dubai
-                        Viral</span>
-                    </div>
-                    <p class="text-xs sm:text-sm text-zinc-400">Mozzarella lumer + pasta pistachio autentik + serpihan
-                      kunafa emas renyah.</p>
-                  </div>
-                  <div class="flex items-center gap-3">
-                    <span class="text-xl sm:text-2xl font-serif font-bold text-amber-400 whitespace-nowrap">29k</span>
-                    <button onclick="quickAddToCart(11)"
-                      class="w-9 h-9 rounded-full bg-amber-500 hover:bg-amber-400 text-black flex items-center justify-center font-bold transition-transform active:scale-95 shadow"
-                      title="Tambah ke Keranjang">
-                      <i class="fa-solid fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-
-                <!-- Item 2 -->
-                <div
-                  class="flex items-center justify-between p-4 rounded-2xl bg-black/40 border border-white/10 hover:border-amber-400/40 transition-all group">
-                  <div class="space-y-0.5">
-                    <div class="flex items-center gap-2">
-                      <h3
-                        class="text-base sm:text-lg font-bold text-white group-hover:text-amber-300 transition-colors">
-                        Ultimate Double Pistachio Kunafa
-                      </h3>
-                      <span
-                        class="text-[10px] bg-amber-950 text-amber-300 border border-amber-800 px-2 py-0.5 rounded">Signature</span>
-                    </div>
-                    <p class="text-xs sm:text-sm text-zinc-400">Ekstra double mozzarella, limpahan pasta pistachio
-                      tebal, dan topping kataifi melimpah.</p>
-                  </div>
-                  <div class="flex items-center gap-3">
-                    <span class="text-xl sm:text-2xl font-serif font-bold text-amber-400 whitespace-nowrap">35k</span>
-                    <button onclick="quickAddToCart(12)"
-                      class="w-9 h-9 rounded-full bg-amber-500 hover:bg-amber-400 text-black flex items-center justify-center font-bold transition-transform active:scale-95 shadow"
-                      title="Tambah ke Keranjang">
-                      <i class="fa-solid fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
+              <!-- CTA Buttons -->
+              <div class="flex flex-wrap items-center gap-4 pt-2">
+                <a href="#menu" class="amber-glow-btn px-7 py-3.5 rounded-full text-black font-bold text-sm sm:text-base flex items-center gap-2.5">
+                  <i class="fa-solid fa-utensils"></i>
+                  <span>Lihat Menu & Pesan</span>
+                </a>
+                <a href="#gerai" class="px-6 py-3.5 rounded-full bg-zinc-900/80 hover:bg-zinc-800 border border-zinc-700/60 hover:border-zinc-500 text-zinc-200 font-semibold text-sm sm:text-base flex items-center gap-2 transition-all">
+                  <i class="fa-solid fa-store text-amber-400"></i>
+                  <span>Info Gerai Kediri</span>
+                </a>
               </div>
 
-              <div class="pt-2 flex items-center gap-4 text-xs text-zinc-400">
-                <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Pistachio
-                  Asli</span>
-                <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Kunafa Renyah
-                  Mentega</span>
-                <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Mozzarella
-                  Lumer</span>
+              <!-- Highlight Stats extracted from Reference -->
+              <div class="grid grid-cols-3 gap-4 pt-8 border-t border-zinc-800/80 max-w-lg">
+                <div class="space-y-1">
+                  <div class="text-2xl sm:text-3xl font-bold font-serif text-white flex items-baseline gap-1">
+                    <span class="gold-gradient">19K</span>
+                  </div>
+                  <div class="text-xs sm:text-sm text-zinc-400">Mulai dari</div>
+                </div>
+
+                <div class="space-y-1">
+                  <div class="text-2xl sm:text-3xl font-bold font-serif text-white flex items-baseline gap-1">
+                    <span class="gold-gradient">12+</span>
+                  </div>
+                  <div class="text-xs sm:text-sm text-zinc-400">Varian menu</div>
+                </div>
+
+                <div class="space-y-1">
+                  <div class="text-2xl sm:text-3xl font-bold font-serif text-white flex items-baseline gap-1">
+                    <span class="gold-gradient">12-21</span>
+                  </div>
+                  <div class="text-xs sm:text-sm text-zinc-400">Jam buka</div>
+                </div>
               </div>
             </div>
 
-            <!-- Right Image Showcase -->
-            <div class="lg:col-span-5 relative flex justify-center">
-              <div
-                class="relative w-full max-w-sm rounded-2xl overflow-hidden border border-amber-500/30 shadow-2xl group">
-                <img src="public/images/pistachio_kunafa_1790606345173.jpg"
-                  alt="Lucky Cheese Dubai Pistachio Kunafa Cheese Coin"
-                  class="w-full h-80 object-cover object-center group-hover:scale-105 transition-transform duration-500" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-                <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white">
-                  <div>
-                    <span class="text-xs uppercase tracking-wider text-amber-300 font-bold">Sensasi Sultan Dubai</span>
-                    <p class="text-sm font-bold">Sensasi Gurih Manis Crunchy</p>
+            <!-- Right Hero Visual Showcase -->
+            <div class="lg:col-span-5 relative">
+              <!-- Golden backplate halo -->
+              <div class="absolute inset-0 bg-gradient-to-tr from-amber-600/25 via-orange-500/20 to-transparent rounded-3xl filter blur-2xl transform scale-95 -z-10"></div>
+              
+              <div class="relative rounded-3xl overflow-hidden border border-amber-500/30 p-2 bg-gradient-to-b from-zinc-800/50 to-zinc-950/80 shadow-2xl">
+                <div class="relative h-[380px] sm:h-[440px] rounded-2xl overflow-hidden group">
+                  <img 
+                    src="/images/lucky_cheese_hero_1790606330960.jpg" 
+                    alt="Lucky Cheese Korean Cheese Coin Pancake Mozzarella Pull" 
+                    class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700"
+                    loading="eager"
+                    onerror="this.onerror=null;this.src='/images/double_mozzarella_1790606359119.jpg';"
+                  />
+                  
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+
+                  <!-- Floating Feature Badges -->
+                  <div class="absolute bottom-4 left-4 right-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-3.5 rounded-xl bg-zinc-950/80 backdrop-blur-md border border-amber-500/30">
+                    <div class="flex items-center gap-3">
+                      <div class="w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center text-amber-400">
+                        <i class="fa-solid fa-fire-burner text-lg"></i>
+                      </div>
+                      <div>
+                        <div class="text-sm font-bold text-white">Freshly Baked to Order</div>
+                        <div class="text-xs text-amber-300/80">3-5 Menit Panas & Krispi</div>
+                      </div>
+                    </div>
+                    <div class="px-2.5 py-1 rounded bg-amber-400 text-black text-xs font-bold tracking-wide flex items-center gap-1">
+                      <i class="fa-solid fa-cheese"></i> 15cm Cheese Pull
+                    </div>
                   </div>
-                  <button onclick="openProductModal(11)"
-                    class="px-3 py-1.5 rounded-lg bg-black/60 hover:bg-black text-amber-400 border border-amber-500/30 text-xs font-semibold backdrop-blur">
-                    Detail Rasa
+                </div>
+              </div>
+
+              <!-- Little floating coin stamp -->
+              <div class="absolute -top-4 -right-4 bg-gradient-to-tr from-amber-500 to-yellow-300 text-black p-4 rounded-2xl shadow-xl flex flex-col items-center justify-center border-2 border-black/40 rotate-6 hidden sm:flex">
+                <span class="text-[10px] uppercase font-black tracking-wider">10-Won Coin</span>
+                <span class="text-lg font-black font-serif">Original</span>
+                <span class="text-[10px] font-bold text-zinc-900">Kediri Hits</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- SPECIAL LAUNCH SECTION: DUBAI PISTACHIO ROYALE -->
+      <section id="dubai-royale" class="py-14 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="relative rounded-3xl overflow-hidden border border-amber-500/40 bg-gradient-to-br from-[#151c14] via-[#16161c] to-[#1a120c] p-6 sm:p-10 shadow-2xl">
+            
+            <!-- Background Glow & Accents -->
+            <div class="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full filter blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-amber-500/10 rounded-full filter blur-3xl pointer-events-none"></div>
+
+            <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              
+              <!-- Left Content -->
+              <div class="lg:col-span-7 space-y-4">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400 text-black text-xs font-bold tracking-wide shadow">
+                  <i class="fa-solid fa-sparkles"></i>
+                  <span>Special Launch</span>
+                </div>
+
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-white">
+                  Lucky Cheese <span class="gold-gradient">Dubai Pistachio</span> Royale
+                </h2>
+
+                <p class="text-zinc-300 text-base sm:text-lg leading-relaxed">
+                  Perpaduan mozzarella premium dengan pistachio khas Dubai dalam pancake coin Korea. Gurihnya keju berpadu manis mewahnya krim pistachio dan kriuknya kunafa kataifi panggang.
+                </p>
+
+                <!-- 2 Dubai Pistachio Items -->
+                <div class="space-y-3 pt-2">
+                  <!-- Item 1 -->
+                  <div class="flex items-center justify-between p-4 rounded-2xl bg-black/40 border border-white/10 hover:border-amber-400/40 transition-all group">
+                    <div class="space-y-0.5">
+                      <div class="flex items-center gap-2">
+                        <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-amber-300 transition-colors">
+                          Mozza & Pistachio Kunafa
+                        </h3>
+                        <span class="text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-800 px-2 py-0.5 rounded">Dubai Viral</span>
+                      </div>
+                      <p class="text-xs sm:text-sm text-zinc-400">Mozzarella lumer + pasta pistachio autentik + serpihan kunafa emas renyah.</p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <span class="text-xl sm:text-2xl font-serif font-bold text-amber-400 whitespace-nowrap">29k</span>
+                      <button onclick="quickAddToCart(11)" class="w-9 h-9 rounded-full bg-amber-500 hover:bg-amber-400 text-black flex items-center justify-center font-bold transition-transform active:scale-95 shadow" title="Tambah ke Keranjang">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Item 2 -->
+                  <div class="flex items-center justify-between p-4 rounded-2xl bg-black/40 border border-white/10 hover:border-amber-400/40 transition-all group">
+                    <div class="space-y-0.5">
+                      <div class="flex items-center gap-2">
+                        <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-amber-300 transition-colors">
+                          Ultimate Double Pistachio Kunafa
+                        </h3>
+                        <span class="text-[10px] bg-amber-950 text-amber-300 border border-amber-800 px-2 py-0.5 rounded">Signature</span>
+                      </div>
+                      <p class="text-xs sm:text-sm text-zinc-400">Ekstra double mozzarella, limpahan pasta pistachio tebal, dan topping kataifi melimpah.</p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <span class="text-xl sm:text-2xl font-serif font-bold text-amber-400 whitespace-nowrap">35k</span>
+                      <button onclick="quickAddToCart(12)" class="w-9 h-9 rounded-full bg-amber-500 hover:bg-amber-400 text-black flex items-center justify-center font-bold transition-transform active:scale-95 shadow" title="Tambah ke Keranjang">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-2 flex items-center gap-4 text-xs text-zinc-400">
+                  <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Pistachio Asli</span>
+                  <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Kunafa Renyah Mentega</span>
+                  <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400"></i> Mozzarella Lumer</span>
+                </div>
+              </div>
+
+              <!-- Right Image Showcase -->
+              <div class="lg:col-span-5 relative flex justify-center">
+                <div class="relative w-full max-w-sm rounded-2xl overflow-hidden border border-amber-500/30 shadow-2xl group">
+                  <img 
+                    src="/images/pistachio_kunafa_1790606345173.jpg" 
+                    alt="Lucky Cheese Dubai Pistachio Kunafa Cheese Coin" 
+                    class="w-full h-80 object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    onerror="this.onerror=null;this.src='/images/lucky_cheese_hero_1790606330960.jpg';"
+                  />
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                  <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white">
+                    <div>
+                      <span class="text-xs uppercase tracking-wider text-amber-300 font-bold">Sensasi Sultan Dubai</span>
+                      <p class="text-sm font-bold">Sensasi Gurih Manis Crunchy</p>
+                    </div>
+                    <button onclick="openProductModal(11)" class="px-3 py-1.5 rounded-lg bg-black/60 hover:bg-black text-amber-400 border border-amber-500/30 text-xs font-semibold backdrop-blur">
+                      Detail Rasa
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- MENU CATALOG & INTERACTIVE FILTERS SECTION -->
+      <section id="menu" class="py-16 md:py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <!-- Section Header -->
+          <div class="text-center max-w-3xl mx-auto space-y-3 mb-10">
+            <span class="text-xs font-bold uppercase tracking-widest text-amber-400">KOREAN CHEESE COIN PANCAKE</span>
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">
+              Menu Lucky Cheese Kediri
+            </h2>
+            <p class="text-zinc-400 text-sm sm:text-base">
+              Semua varian menggunakan mozzarella premium pilihan yang meleleh sempurna di setiap gigitan.
+            </p>
+          </div>
+
+          <!-- Filter Tabs & Search Controls -->
+          <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-10">
+            <!-- Filterable Category Buttons -->
+            <div class="inline-flex p-1.5 rounded-full bg-zinc-900/90 border border-zinc-800 shadow-inner flex-wrap justify-center">
+              <button 
+                onclick="filterMenu('Semua')" 
+                id="filter-Semua"
+                class="category-btn active px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all bg-gradient-to-r from-orange-500 to-amber-500 text-black shadow">
+                Semua
+              </button>
+              <button 
+                onclick="filterMenu('Classic')" 
+                id="filter-Classic"
+                class="category-btn px-5 py-2 rounded-full text-xs sm:text-sm font-semibold text-zinc-400 hover:text-white transition-all">
+                Classic
+              </button>
+              <button 
+                onclick="filterMenu('Premium')" 
+                id="filter-Premium"
+                class="category-btn px-5 py-2 rounded-full text-xs sm:text-sm font-semibold text-zinc-400 hover:text-white transition-all">
+                Premium
+              </button>
+              <button 
+                onclick="filterMenu('Special')" 
+                id="filter-Special"
+                class="category-btn px-5 py-2 rounded-full text-xs sm:text-sm font-semibold text-zinc-400 hover:text-white transition-all">
+                Special
+              </button>
+            </div>
+
+            <!-- Quick Live Search Box -->
+            <div class="relative w-full sm:w-72">
+              <input 
+                type="text" 
+                id="menuSearchInput" 
+                placeholder="Cari varian (Nutella, Oreo, Cheese...)" 
+                oninput="handleSearchMenu(this.value)"
+                class="w-full pl-10 pr-4 py-2.5 rounded-full bg-zinc-900 border border-zinc-800 focus:border-amber-400 text-xs sm:text-sm text-white placeholder-zinc-500 outline-none transition-all"
+              />
+              <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-zinc-500 text-sm"></i>
+            </div>
+          </div>
+
+          <!-- Product Cards Grid Container -->
+          <div id="menuGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Dynamic Menu items injected by JavaScript -->
+          </div>
+
+          <!-- Empty search state -->
+          <div id="emptySearchState" class="hidden py-16 text-center space-y-4">
+            <div class="w-16 h-16 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-500 mx-auto text-2xl">
+              <i class="fa-solid fa-cheese"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white">Menu tidak ditemukan</h3>
+            <p class="text-sm text-zinc-400 max-w-sm mx-auto">Coba cari dengan kata kunci lain atau pilih tab kategori di atas.</p>
+            <button onclick="resetMenuFilters()" class="px-4 py-2 rounded-full bg-amber-500 text-black text-xs font-bold hover:bg-amber-400">
+              Tampilkan Semua Menu
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- KEUNGGULAN / CRAFTSMANSHIP EXPERIENCE -->
+      <section id="keunggulan" class="py-16 bg-zinc-950/60 border-y border-zinc-900 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Left Info Cards -->
+            <div class="lg:col-span-6 space-y-6">
+              <span class="text-xs font-bold uppercase tracking-widest text-amber-400">DETAIL PRODUK & KUALITAS</span>
+              <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">
+                Rahasia Kenikmatan di Balik <br/><span class="gold-gradient">Lucky Cheese Kediri</span>
+              </h2>
+              <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
+                Kami membawa resep otentik Korean Coin Pancake ke Kediri dengan komitmen kualitas tanpa kompromi. Setiap keping dibuat fresh saat dipesan untuk menjamin kerenyahan kulit luar dan tarikan keju yang sensasional.
+              </p>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                
+                <div class="p-4 rounded-2xl bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/30 transition-all space-y-2">
+                  <div class="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-400 text-lg">
+                    <i class="fa-solid fa-cheese"></i>
+                  </div>
+                  <h3 class="text-base font-bold text-white">100% Real Mozzarella</h3>
+                  <p class="text-xs text-zinc-400 leading-normal">
+                    Mozzarella murni berkualitas tinggi yang menghasilkan cheese pull hingga 25 cm, gurih alami tanpa perisa buatan.
+                  </p>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/30 transition-all space-y-2">
+                  <div class="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-400 text-lg">
+                    <i class="fa-solid fa-fire"></i>
+                  </div>
+                  <h3 class="text-base font-bold text-white">Crispy Golden Crust</h3>
+                  <p class="text-xs text-zinc-400 leading-normal">
+                    Adonan renyah harum mentega dengan motif koin 10-won Korea yang dicetak presisi pada suhu sempurna.
+                  </p>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/30 transition-all space-y-2">
+                  <div class="w-10 h-10 rounded-xl bg-yellow-500/10 flex items-center justify-center text-yellow-400 text-lg">
+                    <i class="fa-solid fa-bolt"></i>
+                  </div>
+                  <h3 class="text-base font-bold text-white">Pre-Order Anti Ribet</h3>
+                  <p class="text-xs text-zinc-400 leading-normal">
+                    Pesan lewat website atau WhatsApp, tentukan jam ambil. Tidak perlu antre lama di gerai, siap saat kamu datang.
+                  </p>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/30 transition-all space-y-2">
+                  <div class="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-lg">
+                    <i class="fa-solid fa-receipt"></i>
+                  </div>
+                  <h3 class="text-base font-bold text-white">QRIS & Struk Resmi</h3>
+                  <p class="text-xs text-zinc-400 leading-normal">
+                    Dukungan pembayaran digital instan dan jaminan kepuasan pelanggan: gratis jika tidak dapat struk belanja!
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Right Visual Dual Showcase -->
+            <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+              <div class="space-y-4">
+                <div class="rounded-2xl overflow-hidden border border-zinc-800 shadow-xl group">
+                  <img 
+                    src="/images/double_mozzarella_1790606359119.jpg" 
+                    alt="Spesial Double Mozzarella Cheese Pull" 
+                    class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    onerror="this.onerror=null;this.src='/images/lucky_cheese_hero_1790606330960.jpg';"
+                  />
+                  <div class="p-3 bg-zinc-900 text-center">
+                    <span class="text-xs font-bold text-amber-300">Sensasi Tarikan Keju Lumer</span>
+                  </div>
+                </div>
+                <div class="p-4 rounded-2xl bg-gradient-to-br from-amber-500/10 to-orange-500/10 border border-amber-500/20 text-center">
+                  <div class="text-2xl font-serif font-bold text-white">100% Halal</div>
+                  <div class="text-xs text-zinc-400 mt-1">Bahan Pilihan Terbaik</div>
+                </div>
+              </div>
+
+              <div class="space-y-4 pt-8">
+                <div class="p-4 rounded-2xl bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 text-center">
+                  <div class="text-2xl font-serif font-bold gold-gradient">3-5 Menit</div>
+                  <div class="text-xs text-zinc-400 mt-1">Waktu Panggang Cepat</div>
+                </div>
+                <div class="rounded-2xl overflow-hidden border border-zinc-800 shadow-xl group">
+                  <img 
+                    src="/images/nutella_choco_coin_1790606371202.jpg" 
+                    alt="Nutella Choco Cheese Coin" 
+                    class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    onerror="this.onerror=null;this.src='/images/double_mozzarella_1790606359119.jpg';"
+                  />
+                  <div class="p-3 bg-zinc-900 text-center">
+                    <span class="text-xs font-bold text-amber-300">Topping Premium Asli</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- GERAI & INFO LOKASI KEDIRI -->
+      <section id="gerai" class="py-16 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="rounded-3xl border border-zinc-800 bg-gradient-to-b from-zinc-900/90 to-zinc-950/90 p-8 sm:p-12 shadow-2xl">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              
+              <div class="lg:col-span-7 space-y-5">
+                <span class="text-xs font-bold uppercase tracking-widest text-amber-400">INFO GERAI & PEMESANAN</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">
+                  Kunjungi Gerai Lucky Cheese di Kediri
+                </h2>
+                <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
+                  Mau makan langsung saat masih hangat mengepul atau pesan dulu untuk dibawa pulang? Kunjungi booth kami di pusat kuliner kota Kediri.
+                </p>
+
+                <div class="space-y-3.5 text-sm text-zinc-300">
+                  <div class="flex items-start gap-3.5">
+                    <div class="w-8 h-8 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                      <strong class="text-white block font-medium">Alamat Gerai:</strong>
+                      <span>Jl. Dhoho No. 88 (Pusat Kuliner), Kota Kediri, Jawa Timur</span>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start gap-3.5">
+                    <div class="w-8 h-8 rounded-lg bg-orange-500/10 text-orange-400 flex items-center justify-center shrink-0 mt-0.5">
+                      <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <div>
+                      <strong class="text-white block font-medium">Jam Operasional:</strong>
+                      <span>12:00 - 21:00 WIB (Buka Setiap Hari)</span>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start gap-3.5">
+                    <div class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div>
+                      <strong class="text-white block font-medium">Pre-Order & Layanan Pelanggan:</strong>
+                      <span>+62 812-3456-7890 (Respon Cepat via WhatsApp)</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-3 flex flex-wrap gap-4">
+                  <a 
+                    href="https://maps.google.com/?q=Jl.+Dhoho+Kediri" 
+                    target="_blank" 
+                    rel="noopener"
+                    class="px-5 py-2.5 rounded-full bg-zinc-800 hover:bg-zinc-700 text-white font-semibold text-xs sm:text-sm flex items-center gap-2 border border-zinc-700 transition-all">
+                    <i class="fa-solid fa-diamond-turn-right text-amber-400"></i>
+                    <span>Petunjuk Arah Google Maps</span>
+                  </a>
+                  <button 
+                    onclick="openCartDrawer()" 
+                    class="amber-glow-btn px-6 py-2.5 rounded-full text-black font-bold text-xs sm:text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>Pre-Order Sekarang</span>
                   </button>
                 </div>
               </div>
+
+              <!-- Right Map / Gerai Card Mock -->
+              <div class="lg:col-span-5">
+                <div class="p-6 rounded-2xl bg-zinc-950 border border-zinc-800/80 space-y-4 shadow-xl">
+                  <div class="flex items-center justify-between pb-3 border-b border-zinc-800">
+                    <span class="text-xs font-semibold text-zinc-400">Status Gerai Hari Ini</span>
+                    <span class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-400 bg-emerald-950/60 px-2.5 py-1 rounded-full border border-emerald-800">
+                      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> BUKA SEKARANG
+                    </span>
+                  </div>
+
+                  <div class="space-y-2 text-xs">
+                    <div class="flex justify-between py-1 text-zinc-400">
+                      <span>Perkiraan Waktu Siap:</span>
+                      <span class="text-white font-medium">3 - 5 Menit / Pancake</span>
+                    </div>
+                    <div class="flex justify-between py-1 text-zinc-400">
+                      <span>Metode Pembayaran:</span>
+                      <span class="text-amber-300 font-medium">QRIS Instan & Tunai</span>
+                    </div>
+                    <div class="flex justify-between py-1 text-zinc-400">
+                      <span>Promo Berjalan:</span>
+                      <span class="text-orange-400 font-bold">Buy 2 Free 1 Opening</span>
+                    </div>
+                  </div>
+
+                  <div class="pt-2">
+                    <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-200 flex items-center gap-2">
+                      <i class="fa-solid fa-circle-info text-amber-400 text-sm"></i>
+                      <span>Tips: Pesan 10 menit sebelum tiba agar pancake masih meleleh hangat!</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
-
           </div>
 
         </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-black border-t border-zinc-900 py-12 text-zinc-400 text-xs sm:text-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+        
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-orange-500 to-amber-400 flex items-center justify-center text-black font-bold text-lg">
+              <i class="fa-solid fa-coins"></i>
+            </div>
+            <div>
+              <span class="font-serif text-xl font-bold text-white tracking-tight">Lucky Cheese</span>
+              <p class="text-xs text-zinc-500">Korean Cheese Coin Pancake Kediri · 럭키치즈</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-6 text-zinc-400">
+            <a href="#beranda" class="hover:text-amber-400 transition-colors">Beranda</a>
+            <a href="#menu" class="hover:text-amber-400 transition-colors">Menu</a>
+            <a href="#dubai-royale" class="hover:text-amber-400 transition-colors">Dubai Royale</a>
+            <a href="#keunggulan" class="hover:text-amber-400 transition-colors">Detail Produk</a>
+            <a href="#gerai" class="hover:text-amber-400 transition-colors">Info Gerai</a>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-zinc-900 hover:bg-amber-500 hover:text-black flex items-center justify-center text-zinc-300 transition-all" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-zinc-900 hover:bg-amber-500 hover:text-black flex items-center justify-center text-zinc-300 transition-all" title="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-zinc-900 hover:bg-amber-500 hover:text-black flex items-center justify-center text-zinc-300 transition-all" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="pt-6 border-t border-zinc-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
+          <p>© 2026 Lucky Cheese Kediri. All rights reserved. Hak Cipta Dilindungi.</p>
+          <div class="flex items-center gap-3">
+            <span class="text-zinc-600">Metode Bayar Resmi:</span>
+            <span class="px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 font-semibold">QRIS</span>
+            <span class="px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 font-semibold">BCA</span>
+            <span class="px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 font-semibold">GoPay</span>
+            <span class="px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 font-semibold">OVO</span>
+          </div>
+        </div>
+
       </div>
-    </section>
+    </footer>
 
-    <!-- MENU CATALOG & INTERACTIVE FILTERS SECTION -->
-    <section id="menu" class="py-16 md:py-24 relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- PRODUCT QUICK VIEW MODAL -->
+    <div id="productModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/85 backdrop-blur-md">
+      <div class="relative w-full max-w-xl rounded-3xl bg-zinc-950 border border-zinc-800 shadow-2xl overflow-hidden transform transition-all">
+        
+        <!-- Close Button -->
+        <button onclick="closeProductModal()" class="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-black/60 hover:bg-black text-zinc-300 hover:text-white flex items-center justify-center transition-colors border border-white/10">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
 
-        <!-- Section Header -->
-        <div class="text-center max-w-3xl mx-auto space-y-3 mb-10">
-          <span class="text-xs font-bold uppercase tracking-widest text-amber-400">KOREAN CHEESE COIN PANCAKE</span>
-          <h2 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">
-            Menu Lucky Cheese Kediri
-          </h2>
-          <p class="text-zinc-400 text-sm sm:text-base">
-            Semua varian menggunakan mozzarella premium pilihan yang meleleh sempurna di setiap gigitan.
-          </p>
+        <div id="productModalContent">
+          <!-- Dynamic Content Loaded by JS -->
         </div>
 
-        <!-- Filter Tabs & Search Controls -->
-        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-10">
-          <!-- Filterable Category Buttons -->
-          <div
-            class="inline-flex p-1.5 rounded-full bg-zinc-900/90 border border-zinc-800 shadow-inner flex-wrap justify-center">
-            <button onclick="filterMenu('Semua')" id="filter-Semua"
-              class="category-btn active px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all bg-gradient-to-r from-orange-500 to-amber-500 text-black shadow">
-              Semua
-            </button>
-            <button onclick="filterMenu('Classic')" id="filter-Classic"
-              class="category-btn px-5 py-2 rounded-full text-xs sm:text-sm font-semibold text-zinc-400 hover:text-white transition-all">
-              Classic
-            </button>
-            <button onclick="filterMenu('Premium')" id="filter-Premium"
-              class="category-btn px-5 py-2 rounded-full text-xs sm:text-sm font-semibold text-zinc-400 hover:text-white transition-all">
-              Premium
-            </button>
-            <button onclick="filterMenu('Special')" id="filter-Special"
-              class="category-btn px-5 py-2 rounded-full text-xs sm:text-sm font-semibold text-zinc-400 hover:text-white transition-all">
-              Special
-            </button>
-          </div>
+      </div>
+    </div>
 
-          <!-- Quick Live Search Box -->
-          <div class="relative w-full sm:w-72">
-            <input type="text" id="menuSearchInput" placeholder="Cari varian (Nutella, Oreo, Cheese...)"
-              oninput="handleSearchMenu(this.value)"
-              class="w-full pl-10 pr-4 py-2.5 rounded-full bg-zinc-900 border border-zinc-800 focus:border-amber-400 text-xs sm:text-sm text-white placeholder-zinc-500 outline-none transition-all" />
-            <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-zinc-500 text-sm"></i>
+    <!-- SHOPPING CART SLIDE-OVER DRAWER -->
+    <div id="cartDrawer" class="fixed inset-0 z-50 hidden">
+      <!-- Backdrop -->
+      <div onclick="closeCartDrawer()" class="absolute inset-0 bg-black/80 backdrop-blur-sm transition-opacity"></div>
+      
+      <!-- Drawer Panel -->
+      <div class="absolute right-0 top-0 bottom-0 w-full max-w-md bg-zinc-950 border-l border-zinc-800 flex flex-col shadow-2xl transform transition-transform duration-300">
+        
+        <!-- Drawer Header -->
+        <div class="p-5 border-b border-zinc-800/80 flex items-center justify-between bg-zinc-900/40">
+          <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center">
+              <i class="fa-solid fa-cart-shopping text-sm"></i>
+            </div>
+            <div>
+              <h3 class="text-base font-bold text-white">Keranjang Pesanan</h3>
+              <p class="text-xs text-zinc-400"><span id="cartDrawerCount">0</span> item terpilih</p>
+            </div>
           </div>
-        </div>
-
-        <!-- Product Cards Grid Container -->
-        <div id="menuGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          <!-- Dynamic Menu items injected by JavaScript -->
-        </div>
-
-        <!-- Empty search state -->
-        <div id="emptySearchState" class="hidden py-16 text-center space-y-4">
-          <div
-            class="w-16 h-16 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-500 mx-auto text-2xl">
-            <i class="fa-solid fa-cheese"></i>
-          </div>
-          <h3 class="text-lg font-bold text-white">Menu tidak ditemukan</h3>
-          <p class="text-sm text-zinc-400 max-w-sm mx-auto">Coba cari dengan kata kunci lain atau pilih tab kategori di
-            atas.</p>
-          <button onclick="resetMenuFilters()"
-            class="px-4 py-2 rounded-full bg-amber-500 text-black text-xs font-bold hover:bg-amber-400">
-            Tampilkan Semua Menu
+          <button onclick="closeCartDrawer()" class="w-8 h-8 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-white flex items-center justify-center transition-colors">
+            <i class="fa-solid fa-xmark"></i>
           </button>
         </div>
 
-      </div>
-    </section>
+        <!-- Opening Promo Alert in Drawer -->
+        <div class="bg-gradient-to-r from-amber-500/15 via-orange-500/15 to-amber-500/15 border-b border-amber-500/20 px-5 py-2.5 flex items-center justify-between text-xs">
+          <span class="text-amber-300 font-semibold flex items-center gap-1.5">
+            <i class="fa-solid fa-tag text-amber-400"></i> Opening Promo: Buy 2 Free 1
+          </span>
+          <span id="promoBadgeInfo" class="text-[11px] text-zinc-400">Pilih 3 item untuk gratis 1</span>
+        </div>
 
-    <!-- KEUNGGULAN / CRAFTSMANSHIP EXPERIENCE -->
-    <section id="keunggulan" class="py-16 bg-zinc-950/60 border-y border-zinc-900 relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Cart Items List (Scrollable) -->
+        <div id="cartItemsContainer" class="flex-1 overflow-y-auto p-5 space-y-4 divide-y divide-zinc-900">
+          <!-- Populated by JS -->
+        </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-
-          <!-- Left Info Cards -->
-          <div class="lg:col-span-6 space-y-6">
-            <span class="text-xs font-bold uppercase tracking-widest text-amber-400">DETAIL PRODUK & KUALITAS</span>
-            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">
-              Rahasia Kenikmatan di Balik <br /><span class="gold-gradient">Lucky Cheese Kediri</span>
-            </h2>
-            <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
-              Kami membawa resep otentik Korean Coin Pancake ke Kediri dengan komitmen kualitas tanpa kompromi. Setiap
-              keping dibuat fresh saat dipesan untuk menjamin kerenyahan kulit luar dan tarikan keju yang sensasional.
-            </p>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-
-              <div
-                class="p-4 rounded-2xl bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/30 transition-all space-y-2">
-                <div
-                  class="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-400 text-lg">
-                  <i class="fa-solid fa-cheese"></i>
-                </div>
-                <h3 class="text-base font-bold text-white">100% Real Mozzarella</h3>
-                <p class="text-xs text-zinc-400 leading-normal">
-                  Mozzarella murni berkualitas tinggi yang menghasilkan cheese pull hingga 25 cm, gurih alami tanpa
-                  perisa buatan.
-                </p>
+        <!-- Drawer Footer & Checkout Controls -->
+        <div class="p-5 border-t border-zinc-800 bg-zinc-950 space-y-4">
+          
+          <!-- Order Options -->
+          <div class="space-y-2 text-xs">
+            <div class="flex items-center justify-between">
+              <label class="text-zinc-400 font-medium">Tipe Pemesanan:</label>
+              <div class="flex gap-2">
+                <button type="button" onclick="setOrderType('Pick-up')" id="typePickupBtn" class="px-2.5 py-1 rounded bg-amber-500 text-black font-bold">Pick-up</button>
+                <button type="button" onclick="setOrderType('Dine-in')" id="typeDineinBtn" class="px-2.5 py-1 rounded bg-zinc-900 text-zinc-400 hover:text-white">Dine-in</button>
               </div>
+            </div>
 
-              <div
-                class="p-4 rounded-2xl bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/30 transition-all space-y-2">
-                <div
-                  class="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-400 text-lg">
-                  <i class="fa-solid fa-fire"></i>
-                </div>
-                <h3 class="text-base font-bold text-white">Crispy Golden Crust</h3>
-                <p class="text-xs text-zinc-400 leading-normal">
-                  Adonan renyah harum mentega dengan motif koin 10-won Korea yang dicetak presisi pada suhu sempurna.
-                </p>
+            <div class="grid grid-cols-2 gap-2 pt-1">
+              <div>
+                <input 
+                  type="text" 
+                  id="customerNameInput" 
+                  placeholder="Nama Pemesan *" 
+                  class="w-full px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 focus:border-amber-400 text-white placeholder-zinc-500 text-xs outline-none"
+                />
               </div>
-
-              <div
-                class="p-4 rounded-2xl bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/30 transition-all space-y-2">
-                <div
-                  class="w-10 h-10 rounded-xl bg-yellow-500/10 flex items-center justify-center text-yellow-400 text-lg">
-                  <i class="fa-solid fa-bolt"></i>
-                </div>
-                <h3 class="text-base font-bold text-white">Pre-Order Anti Ribet</h3>
-                <p class="text-xs text-zinc-400 leading-normal">
-                  Pesan lewat website atau WhatsApp, tentukan jam ambil. Tidak perlu antre lama di gerai, siap saat kamu
-                  datang.
-                </p>
+              <div>
+                <input 
+                  type="text" 
+                  id="pickupTimeInput" 
+                  placeholder="Jam Ambil (mis: 14:30)" 
+                  class="w-full px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 focus:border-amber-400 text-white placeholder-zinc-500 text-xs outline-none"
+                />
               </div>
+            </div>
 
-              <div
-                class="p-4 rounded-2xl bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/30 transition-all space-y-2">
-                <div
-                  class="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-lg">
-                  <i class="fa-solid fa-receipt"></i>
-                </div>
-                <h3 class="text-base font-bold text-white">QRIS & Struk Resmi</h3>
-                <p class="text-xs text-zinc-400 leading-normal">
-                  Dukungan pembayaran digital instan dan jaminan kepuasan pelanggan: gratis jika tidak dapat struk
-                  belanja!
-                </p>
-              </div>
+            <input 
+              type="text" 
+              id="orderNotesInput" 
+              placeholder="Catatan tambahan (opsional)" 
+              class="w-full px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 focus:border-amber-400 text-white placeholder-zinc-500 text-xs outline-none"
+            />
+          </div>
 
+          <!-- Price Calculations -->
+          <div class="pt-2 border-t border-zinc-900 space-y-1.5 text-xs">
+            <div class="flex justify-between text-zinc-400">
+              <span>Subtotal:</span>
+              <span id="cartSubtotal" class="font-semibold text-zinc-200">Rp 0</span>
+            </div>
+            <div id="promoDiscountRow" class="hidden flex justify-between text-emerald-400">
+              <span>Diskon Buy 2 Free 1:</span>
+              <span id="cartDiscount">- Rp 0</span>
+            </div>
+            <div class="flex justify-between text-sm sm:text-base font-bold text-white pt-1 border-t border-zinc-800/80">
+              <span>Total Bayar:</span>
+              <span id="cartGrandTotal" class="gold-gradient font-serif text-lg">Rp 0</span>
             </div>
           </div>
 
-          <!-- Right Visual Dual Showcase -->
-          <div class="lg:col-span-6 grid grid-cols-2 gap-4">
-            <div class="space-y-4">
-              <div class="rounded-2xl overflow-hidden border border-zinc-800 shadow-xl group">
-                <img src="public/images/double_mozzarella_1790606359119.jpg" alt="Spesial Double Mozzarella Cheese Pull"
-                  class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" />
-                <div class="p-3 bg-zinc-900 text-center">
-                  <span class="text-xs font-bold text-amber-300">Sensasi Tarikan Keju Lumer</span>
-                </div>
-              </div>
-              <div
-                class="p-4 rounded-2xl bg-gradient-to-br from-amber-500/10 to-orange-500/10 border border-amber-500/20 text-center">
-                <div class="text-2xl font-serif font-bold text-white">100% Halal</div>
-                <div class="text-xs text-zinc-400 mt-1">Bahan Pilihan Terbaik</div>
-              </div>
-            </div>
+          <!-- Action Buttons -->
+          <div class="space-y-2">
+            <button 
+              id="whatsappOrderBtn"
+              onclick="submitOrderWhatsApp()" 
+              class="w-full py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg transition-all active:scale-98">
+              <i class="fa-brands fa-whatsapp text-lg"></i>
+              <span>Pesan via WhatsApp</span>
+            </button>
 
-            <div class="space-y-4 pt-8">
-              <div
-                class="p-4 rounded-2xl bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 text-center">
-                <div class="text-2xl font-serif font-bold gold-gradient">3-5 Menit</div>
-                <div class="text-xs text-zinc-400 mt-1">Waktu Panggang Cepat</div>
-              </div>
-              <div class="rounded-2xl overflow-hidden border border-zinc-800 shadow-xl group">
-                <img src="public/images/nutella_choco_coin_1790606371202.jpg" alt="Nutella Choco Cheese Coin"
-                  class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" />
-                <div class="p-3 bg-zinc-900 text-center">
-                  <span class="text-xs font-bold text-amber-300">Topping Premium Asli</span>
-                </div>
-              </div>
-            </div>
-
+            <button 
+              onclick="openQrisModal()" 
+              class="w-full py-2.5 rounded-full bg-zinc-900 hover:bg-zinc-800 border border-amber-500/40 text-amber-300 font-semibold text-xs flex items-center justify-center gap-2 transition-all">
+              <i class="fa-solid fa-qrcode"></i>
+              <span>Bayar QRIS Lebih Praktis</span>
+            </button>
           </div>
 
         </div>
 
       </div>
-    </section>
-
-    <!-- GERAI & INFO LOKASI KEDIRI -->
-    <section id="gerai" class="py-16 relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-        <div
-          class="rounded-3xl border border-zinc-800 bg-gradient-to-b from-zinc-900/90 to-zinc-950/90 p-8 sm:p-12 shadow-2xl">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-
-            <div class="lg:col-span-7 space-y-5">
-              <span class="text-xs font-bold uppercase tracking-widest text-amber-400">INFO GERAI & PEMESANAN</span>
-              <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">
-                Kunjungi Gerai Lucky Cheese di Kediri
-              </h2>
-              <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
-                Mau makan langsung saat masih hangat mengepul atau pesan dulu untuk dibawa pulang? Kunjungi booth kami
-                di pusat kuliner kota Kediri.
-              </p>
-
-              <div class="space-y-3.5 text-sm text-zinc-300">
-                <div class="flex items-start gap-3.5">
-                  <div
-                    class="w-8 h-8 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
-                    <i class="fa-solid fa-location-dot"></i>
-                  </div>
-                  <div>
-                    <strong class="text-white block font-medium">Alamat Gerai:</strong>
-                    <span>Jl. Dhoho No. 88 (Pusat Kuliner), Kota Kediri, Jawa Timur</span>
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3.5">
-                  <div
-                    class="w-8 h-8 rounded-lg bg-orange-500/10 text-orange-400 flex items-center justify-center shrink-0 mt-0.5">
-                    <i class="fa-solid fa-clock"></i>
-                  </div>
-                  <div>
-                    <strong class="text-white block font-medium">Jam Operasional:</strong>
-                    <span>12:00 - 21:00 WIB (Buka Setiap Hari)</span>
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3.5">
-                  <div
-                    class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
-                    <i class="fa-brands fa-whatsapp"></i>
-                  </div>
-                  <div>
-                    <strong class="text-white block font-medium">Pre-Order & Layanan Pelanggan:</strong>
-                    <span>+62 812-3456-7890 (Respon Cepat via WhatsApp)</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="pt-3 flex flex-wrap gap-4">
-                <a href="https://maps.google.com/?q=Jl.+Dhoho+Kediri" target="_blank" rel="noopener"
-                  class="px-5 py-2.5 rounded-full bg-zinc-800 hover:bg-zinc-700 text-white font-semibold text-xs sm:text-sm flex items-center gap-2 border border-zinc-700 transition-all">
-                  <i class="fa-solid fa-diamond-turn-right text-amber-400"></i>
-                  <span>Petunjuk Arah Google Maps</span>
-                </a>
-                <button onclick="openCartDrawer()"
-                  class="amber-glow-btn px-6 py-2.5 rounded-full text-black font-bold text-xs sm:text-sm flex items-center gap-2">
-                  <i class="fa-solid fa-bag-shopping"></i>
-                  <span>Pre-Order Sekarang</span>
-                </button>
-              </div>
-            </div>
-
-            <!-- Right Map / Gerai Card Mock -->
-            <div class="lg:col-span-5">
-              <div class="p-6 rounded-2xl bg-zinc-950 border border-zinc-800/80 space-y-4 shadow-xl">
-                <div class="flex items-center justify-between pb-3 border-b border-zinc-800">
-                  <span class="text-xs font-semibold text-zinc-400">Status Gerai Hari Ini</span>
-                  <span
-                    class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-400 bg-emerald-950/60 px-2.5 py-1 rounded-full border border-emerald-800">
-                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> BUKA SEKARANG
-                  </span>
-                </div>
-
-                <div class="space-y-2 text-xs">
-                  <div class="flex justify-between py-1 text-zinc-400">
-                    <span>Perkiraan Waktu Siap:</span>
-                    <span class="text-white font-medium">3 - 5 Menit / Pancake</span>
-                  </div>
-                  <div class="flex justify-between py-1 text-zinc-400">
-                    <span>Metode Pembayaran:</span>
-                    <span class="text-amber-300 font-medium">QRIS Instan & Tunai</span>
-                  </div>
-                  <div class="flex justify-between py-1 text-zinc-400">
-                    <span>Promo Berjalan:</span>
-                    <span class="text-orange-400 font-bold">Buy 2 Free 1 Opening</span>
-                  </div>
-                </div>
-
-                <div class="pt-2">
-                  <div
-                    class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-200 flex items-center gap-2">
-                    <i class="fa-solid fa-circle-info text-amber-400 text-sm"></i>
-                    <span>Tips: Pesan 10 menit sebelum tiba agar pancake masih meleleh hangat!</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="bg-black border-t border-zinc-900 py-12 text-zinc-400 text-xs sm:text-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-
-      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-        <div class="flex items-center gap-3">
-          <div
-            class="w-10 h-10 rounded-full bg-gradient-to-tr from-orange-500 to-amber-400 flex items-center justify-center text-black font-bold text-lg">
-            <i class="fa-solid fa-coins"></i>
-          </div>
-          <div>
-            <span class="font-serif text-xl font-bold text-white tracking-tight">Lucky Cheese</span>
-            <p class="text-xs text-zinc-500">Korean Cheese Coin Pancake Kediri Â· ëŸ­í‚¤ì¹˜ì¦ˆ</p>
-          </div>
-        </div>
-
-        <div class="flex items-center gap-6 text-zinc-400">
-          <a href="#beranda" class="hover:text-amber-400 transition-colors">Beranda</a>
-          <a href="#menu" class="hover:text-amber-400 transition-colors">Menu</a>
-          <a href="#dubai-royale" class="hover:text-amber-400 transition-colors">Dubai Royale</a>
-          <a href="#keunggulan" class="hover:text-amber-400 transition-colors">Detail Produk</a>
-          <a href="#gerai" class="hover:text-amber-400 transition-colors">Info Gerai</a>
-        </div>
-
-        <div class="flex items-center gap-3">
-          <a href="https://instagram.com" target="_blank" rel="noopener"
-            class="w-9 h-9 rounded-full bg-zinc-900 hover:bg-amber-500 hover:text-black flex items-center justify-center text-zinc-300 transition-all"
-            title="Instagram">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://tiktok.com" target="_blank" rel="noopener"
-            class="w-9 h-9 rounded-full bg-zinc-900 hover:bg-amber-500 hover:text-black flex items-center justify-center text-zinc-300 transition-all"
-            title="TikTok">
-            <i class="fa-brands fa-tiktok"></i>
-          </a>
-          <a href="https://wa.me/6281234567890" target="_blank" rel="noopener"
-            class="w-9 h-9 rounded-full bg-zinc-900 hover:bg-amber-500 hover:text-black flex items-center justify-center text-zinc-300 transition-all"
-            title="WhatsApp">
-            <i class="fa-brands fa-whatsapp"></i>
-          </a>
-        </div>
-      </div>
-
-      <div
-        class="pt-6 border-t border-zinc-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
-        <p>Â© 2026 Lucky Cheese Kediri. All rights reserved. Hak Cipta Dilindungi.</p>
-        <div class="flex items-center gap-3">
-          <span class="text-zinc-600">Metode Bayar Resmi:</span>
-          <span class="px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 font-semibold">QRIS</span>
-          <span class="px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 font-semibold">BCA</span>
-          <span class="px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 font-semibold">GoPay</span>
-          <span class="px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 font-semibold">OVO</span>
-        </div>
-      </div>
-
     </div>
-  </footer>
 
-  <!-- PRODUCT QUICK VIEW MODAL -->
-  <div id="productModal"
-    class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/85 backdrop-blur-md">
-    <div
-      class="relative w-full max-w-xl rounded-3xl bg-zinc-950 border border-zinc-800 shadow-2xl overflow-hidden transform transition-all">
+    <!-- QRIS PAYMENT MODAL -->
+    <div id="qrisModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/85 backdrop-blur-md">
+      <div class="relative w-full max-w-sm rounded-3xl bg-zinc-950 border border-zinc-800 p-6 text-center space-y-4 shadow-2xl">
+        <button onclick="closeQrisModal()" class="absolute top-4 right-4 text-zinc-400 hover:text-white">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
 
-      <!-- Close Button -->
-      <button onclick="closeProductModal()"
-        class="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-black/60 hover:bg-black text-zinc-300 hover:text-white flex items-center justify-center transition-colors border border-white/10">
-        <i class="fa-solid fa-xmark text-lg"></i>
-      </button>
-
-      <div id="productModalContent">
-        <!-- Dynamic Content Loaded by JS -->
-      </div>
-
-    </div>
-  </div>
-
-  <!-- SHOPPING CART SLIDE-OVER DRAWER -->
-  <div id="cartDrawer" class="fixed inset-0 z-50 hidden">
-    <!-- Backdrop -->
-    <div onclick="closeCartDrawer()" class="absolute inset-0 bg-black/80 backdrop-blur-sm transition-opacity"></div>
-
-    <!-- Drawer Panel -->
-    <div
-      class="absolute right-0 top-0 bottom-0 w-full max-w-md bg-zinc-950 border-l border-zinc-800 flex flex-col shadow-2xl transform transition-transform duration-300">
-
-      <!-- Drawer Header -->
-      <div class="p-5 border-b border-zinc-800/80 flex items-center justify-between bg-zinc-900/40">
-        <div class="flex items-center gap-2.5">
-          <div class="w-8 h-8 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center">
-            <i class="fa-solid fa-cart-shopping text-sm"></i>
-          </div>
-          <div>
-            <h3 class="text-base font-bold text-white">Keranjang Pesanan</h3>
-            <p class="text-xs text-zinc-400"><span id="cartDrawerCount">0</span> item terpilih</p>
-          </div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-red-600 text-white font-extrabold text-xs tracking-wider">
+          <i class="fa-solid fa-qrcode"></i> QRIS NASIONAL
         </div>
-        <button onclick="closeCartDrawer()"
-          class="w-8 h-8 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-white flex items-center justify-center transition-colors">
-          <i class="fa-solid fa-xmark"></i>
+
+        <div>
+          <h3 class="text-lg font-bold text-white">LUCKY CHEESE KEDIRI</h3>
+          <p class="text-xs text-zinc-400">NMID: ID102488392019 · Standar BI</p>
+        </div>
+
+        <!-- Simulated QRIS Image -->
+        <div class="bg-white p-4 rounded-2xl inline-block shadow-inner">
+          <img 
+            src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=00020101021126580016ID.LUCKYCHEESE.KEDIRI01189360091800000000005204581253033605802ID5919LUCKY+CHEESE+KEDIRI6006KEDIRI6304" 
+            alt="QRIS Lucky Cheese Kediri" 
+            class="w-48 h-48 mx-auto"
+          />
+        </div>
+
+        <div class="space-y-1">
+          <div class="text-xs text-zinc-400">Total Tagihan:</div>
+          <div id="qrisTotalAmount" class="text-2xl font-serif font-bold text-amber-400">Rp 0</div>
+          <div class="text-[11px] text-zinc-500">Scan via BCA Mobile, Livin, GoPay, OVO, Dana, ShopeePay</div>
+        </div>
+
+        <button 
+          onclick="confirmQrisPayment()" 
+          class="w-full py-3 rounded-full bg-amber-500 hover:bg-amber-400 text-black font-bold text-xs shadow-md">
+          <i class="fa-solid fa-circle-check"></i> Saya Sudah Transfer / Bayar
         </button>
       </div>
+    </div>
 
-      <!-- Opening Promo Alert in Drawer -->
-      <div
-        class="bg-gradient-to-r from-amber-500/15 via-orange-500/15 to-amber-500/15 border-b border-amber-500/20 px-5 py-2.5 flex items-center justify-between text-xs">
-        <span class="text-amber-300 font-semibold flex items-center gap-1.5">
-          <i class="fa-solid fa-tag text-amber-400"></i> Opening Promo: Buy 2 Free 1
-        </span>
-        <span id="promoBadgeInfo" class="text-[11px] text-zinc-400">Pilih 3 item untuk gratis 1</span>
-      </div>
-
-      <!-- Cart Items List (Scrollable) -->
-      <div id="cartItemsContainer" class="flex-1 overflow-y-auto p-5 space-y-4 divide-y divide-zinc-900">
-        <!-- Populated by JS -->
-      </div>
-
-      <!-- Drawer Footer & Checkout Controls -->
-      <div class="p-5 border-t border-zinc-800 bg-zinc-950 space-y-4">
-
-        <!-- Order Options -->
-        <div class="space-y-2 text-xs">
-          <div class="flex items-center justify-between">
-            <label class="text-zinc-400 font-medium">Tipe Pemesanan:</label>
-            <div class="flex gap-2">
-              <button type="button" onclick="setOrderType('Pick-up')" id="typePickupBtn"
-                class="px-2.5 py-1 rounded bg-amber-500 text-black font-bold">Pick-up</button>
-              <button type="button" onclick="setOrderType('Dine-in')" id="typeDineinBtn"
-                class="px-2.5 py-1 rounded bg-zinc-900 text-zinc-400 hover:text-white">Dine-in</button>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-2 gap-2 pt-1">
-            <div>
-              <input type="text" id="customerNameInput" placeholder="Nama Pemesan *"
-                class="w-full px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 focus:border-amber-400 text-white placeholder-zinc-500 text-xs outline-none" />
-            </div>
-            <div>
-              <input type="text" id="pickupTimeInput" placeholder="Jam Ambil (mis: 14:30)"
-                class="w-full px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 focus:border-amber-400 text-white placeholder-zinc-500 text-xs outline-none" />
-            </div>
-          </div>
-
-          <input type="text" id="orderNotesInput" placeholder="Catatan tambahan (opsional)"
-            class="w-full px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 focus:border-amber-400 text-white placeholder-zinc-500 text-xs outline-none" />
+    <!-- SUCCESS ORDER RECEIPT MODAL -->
+    <div id="successModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/90 backdrop-blur-md">
+      <div class="relative w-full max-w-md rounded-3xl bg-zinc-950 border border-amber-500/40 p-6 sm:p-8 text-center space-y-4 shadow-2xl">
+        <div class="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-400 text-3xl flex items-center justify-center mx-auto">
+          <i class="fa-solid fa-check"></i>
         </div>
 
-        <!-- Price Calculations -->
-        <div class="pt-2 border-t border-zinc-900 space-y-1.5 text-xs">
+        <h3 class="text-2xl font-serif font-bold text-white">Pesanan Terkonfirmasi!</h3>
+        <p id="successReceiptDetails" class="text-xs sm:text-sm text-zinc-300 leading-relaxed">
+          Terima kasih. Pesananmu sedang diproses fresh oleh baker Lucky Cheese Kediri.
+        </p>
+
+        <div class="p-4 rounded-xl bg-zinc-900 border border-zinc-800 text-left text-xs space-y-2">
           <div class="flex justify-between text-zinc-400">
-            <span>Subtotal:</span>
-            <span id="cartSubtotal" class="font-semibold text-zinc-200">Rp 0</span>
+            <span>Nomor Pesanan:</span>
+            <span id="receiptOrderId" class="font-mono text-amber-300 font-bold">#LC-8821</span>
           </div>
-          <div id="promoDiscountRow" class="hidden flex justify-between text-emerald-400">
-            <span>Diskon Buy 2 Free 1:</span>
-            <span id="cartDiscount">- Rp 0</span>
+          <div class="flex justify-between text-zinc-400">
+            <span>Estimasi Selesai:</span>
+            <span class="text-white font-medium">10 - 15 Menit</span>
           </div>
-          <div class="flex justify-between text-sm sm:text-base font-bold text-white pt-1 border-t border-zinc-800/80">
-            <span>Total Bayar:</span>
-            <span id="cartGrandTotal" class="gold-gradient font-serif text-lg">Rp 0</span>
+          <div class="flex justify-between text-zinc-400">
+            <span>Lokasi Ambil:</span>
+            <span class="text-white font-medium">Jl. Dhoho No. 88, Kediri</span>
           </div>
         </div>
 
-        <!-- Action Buttons -->
-        <div class="space-y-2">
-          <button id="whatsappOrderBtn" onclick="submitOrderWhatsApp()"
-            class="w-full py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg transition-all active:scale-98">
-            <i class="fa-brands fa-whatsapp text-lg"></i>
-            <span>Pesan via WhatsApp</span>
-          </button>
-
-          <button onclick="openQrisModal()"
-            class="w-full py-2.5 rounded-full bg-zinc-900 hover:bg-zinc-800 border border-amber-500/40 text-amber-300 font-semibold text-xs flex items-center justify-center gap-2 transition-all">
-            <i class="fa-solid fa-qrcode"></i>
-            <span>Bayar QRIS Lebih Praktis</span>
-          </button>
-        </div>
-
+        <button 
+          onclick="closeSuccessModal()" 
+          class="w-full py-3 rounded-full amber-glow-btn text-black font-bold text-sm">
+          Kembali ke Beranda
+        </button>
       </div>
-
     </div>
-  </div>
 
-  <!-- QRIS PAYMENT MODAL -->
-  <div id="qrisModal"
-    class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/85 backdrop-blur-md">
-    <div
-      class="relative w-full max-w-sm rounded-3xl bg-zinc-950 border border-zinc-800 p-6 text-center space-y-4 shadow-2xl">
-      <button onclick="closeQrisModal()" class="absolute top-4 right-4 text-zinc-400 hover:text-white">
-        <i class="fa-solid fa-xmark text-lg"></i>
-      </button>
-
-      <div
-        class="inline-flex items-center gap-2 px-3 py-1 rounded bg-red-600 text-white font-extrabold text-xs tracking-wider">
-        <i class="fa-solid fa-qrcode"></i> QRIS NASIONAL
-      </div>
-
-      <div>
-        <h3 class="text-lg font-bold text-white">LUCKY CHEESE KEDIRI</h3>
-        <p class="text-xs text-zinc-400">NMID: ID102488392019 Â· Standar BI</p>
-      </div>
-
-      <!-- Simulated QRIS Image -->
-      <div class="bg-white p-4 rounded-2xl inline-block shadow-inner">
-        <img
-          src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=00020101021126580016ID.LUCKYCHEESE.KEDIRI01189360091800000000005204581253033605802ID5919LUCKY+CHEESE+KEDIRI6006KEDIRI6304"
-          alt="QRIS Lucky Cheese Kediri" class="w-48 h-48 mx-auto" />
-      </div>
-
-      <div class="space-y-1">
-        <div class="text-xs text-zinc-400">Total Tagihan:</div>
-        <div id="qrisTotalAmount" class="text-2xl font-serif font-bold text-amber-400">Rp 0</div>
-        <div class="text-[11px] text-zinc-500">Scan via BCA Mobile, Livin, GoPay, OVO, Dana, ShopeePay</div>
-      </div>
-
-      <button onclick="confirmQrisPayment()"
-        class="w-full py-3 rounded-full bg-amber-500 hover:bg-amber-400 text-black font-bold text-xs shadow-md">
-        <i class="fa-solid fa-circle-check"></i> Saya Sudah Transfer / Bayar
-      </button>
-    </div>
-  </div>
-
-  <!-- SUCCESS ORDER RECEIPT MODAL -->
-  <div id="successModal"
-    class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/90 backdrop-blur-md">
-    <div
-      class="relative w-full max-w-md rounded-3xl bg-zinc-950 border border-amber-500/40 p-6 sm:p-8 text-center space-y-4 shadow-2xl">
-      <div
-        class="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-400 text-3xl flex items-center justify-center mx-auto">
+    <!-- FLOATING TOAST NOTIFICATION -->
+    <div id="toastNotification" class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-3 px-5 py-3 rounded-2xl bg-zinc-900 border border-amber-500/40 text-white shadow-2xl text-xs sm:text-sm">
+      <div class="w-7 h-7 rounded-full bg-amber-500 text-black flex items-center justify-center text-xs font-bold">
         <i class="fa-solid fa-check"></i>
       </div>
-
-      <h3 class="text-2xl font-serif font-bold text-white">Pesanan Terkonfirmasi!</h3>
-      <p id="successReceiptDetails" class="text-xs sm:text-sm text-zinc-300 leading-relaxed">
-        Terima kasih. Pesananmu sedang diproses fresh oleh baker Lucky Cheese Kediri.
-      </p>
-
-      <div class="p-4 rounded-xl bg-zinc-900 border border-zinc-800 text-left text-xs space-y-2">
-        <div class="flex justify-between text-zinc-400">
-          <span>Nomor Pesanan:</span>
-          <span id="receiptOrderId" class="font-mono text-amber-300 font-bold">#LC-8821</span>
-        </div>
-        <div class="flex justify-between text-zinc-400">
-          <span>Estimasi Selesai:</span>
-          <span class="text-white font-medium">10 - 15 Menit</span>
-        </div>
-        <div class="flex justify-between text-zinc-400">
-          <span>Lokasi Ambil:</span>
-          <span class="text-white font-medium">Jl. Dhoho No. 88, Kediri</span>
-        </div>
-      </div>
-
-      <button onclick="closeSuccessModal()"
-        class="w-full py-3 rounded-full amber-glow-btn text-black font-bold text-sm">
-        Kembali ke Beranda
-      </button>
+      <span id="toastMessage">Menu ditambahkan ke keranjang</span>
     </div>
-  </div>
 
-  <!-- FLOATING TOAST NOTIFICATION -->
-  <div id="toastNotification"
-    class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-3 px-5 py-3 rounded-2xl bg-zinc-900 border border-amber-500/40 text-white shadow-2xl text-xs sm:text-sm">
-    <div class="w-7 h-7 rounded-full bg-amber-500 text-black flex items-center justify-center text-xs font-bold">
-      <i class="fa-solid fa-check"></i>
-    </div>
-    <span id="toastMessage">Menu ditambahkan ke keranjang</span>
-  </div>
+    <!-- MAIN SCRIPT (Self-contained Vanilla JS) -->
+    <script>
+      // 1. DATA MENU LENGKAP
+      const menuData = [
+        {
+          id: 1,
+          name: "Original Cheese",
+          category: "Classic",
+          price: 19000,
+          desc: "Mozzarella gurih, meleleh sempurna dengan adonan pancake koin renyah keemasan.",
+          longDesc: "Menu legendaris paling dicari! Menggunakan keju mozzarella New Zealand pilihan tanpa campuran, menghasilkan tekstur lumer gurih yang stretchy hingga 15cm dengan aroma mentega premium.",
+          image: "/images/double_mozzarella_1790606359119.jpg",
+          badge: "Best Seller",
+          rating: 4.9,
+          reviews: 412,
+          stretch: "15 cm",
+          sweetness: "15%",
+          savoriness: "95%"
+        },
+        {
+          id: 2,
+          name: "Spesial Double Cheese",
+          category: "Special",
+          price: 25000,
+          desc: "Extra Mozzarella, double the cheese! Sensasi lumer melimpah di setiap gigitan.",
+          longDesc: "Bagi pecinta keju sejati! Dosis ganda mozzarella murni di dalam pancake koin tebal. Tarikan kejunya bisa ditarik panjang hingga lebih dari 25cm. Super gurih dan mengenyangkan.",
+          image: "/images/double_mozzarella_1790606359119.jpg",
+          badge: "Paling Lumer",
+          rating: 5.0,
+          reviews: 580,
+          stretch: "25 cm",
+          sweetness: "15%",
+          savoriness: "100%"
+        },
+        {
+          id: 3,
+          name: "Blueberry",
+          category: "Premium",
+          price: 23000,
+          desc: "Mozzarella + Topping Blueberry manis segar dengan bulir buah asli.",
+          longDesc: "Perpaduan unik rasa gurih hangatnya mozzarella dengan selai blueberry impor beraroma manis asam menyegarkan. Kombinasi kontras yang sangat nagih di lidah!",
+          image: "/images/lucky_cheese_hero_1790606330960.jpg",
+          badge: "Sweet & Savory",
+          rating: 4.8,
+          reviews: 210,
+          stretch: "12 cm",
+          sweetness: "75%",
+          savoriness: "70%"
+        },
+        {
+          id: 4,
+          name: "Nutella",
+          category: "Premium",
+          price: 25000,
+          desc: "Mozzarella + Cokelat Nutella Hazelnut Italia yang meleleh legit.",
+          longDesc: "Pasta cokelat hazelnut Nutella asli yang melimpah berpadu dengan gurihnya keju mozzarella hangat. Rasa cokelatnya creamy, harum, dan tidak enek.",
+          image: "/images/nutella_choco_coin_1790606371202.jpg",
+          badge: "Top Sweet",
+          rating: 4.9,
+          reviews: 489,
+          stretch: "14 cm",
+          sweetness: "85%",
+          savoriness: "65%"
+        },
+        {
+          id: 5,
+          name: "Choco",
+          category: "Classic",
+          price: 23000,
+          desc: "Mozzarella dengan topping Cokelat lembut manis yang memanjakan lidah.",
+          longDesc: "Cokelat leleh lembut berpadu sempurna dengan adonan koin waffle keemasan dan lelehan mozzarella hangat.",
+          image: "/images/nutella_choco_coin_1790606371202.jpg",
+          badge: "Klasik Favorit",
+          rating: 4.8,
+          reviews: 260,
+          stretch: "12 cm",
+          sweetness: "80%",
+          savoriness: "60%"
+        },
+        {
+          id: 6,
+          name: "Choco Oreo",
+          category: "Premium",
+          price: 25000,
+          desc: "Kombinasi Cokelat + Renyahnya Oreo hitam bertabur di atas keju lumer.",
+          longDesc: "Dua kenikmatan dalam satu pancake: lelehan saus cokelat lumer dan sensasi renyah kepingan biskuit Oreo asli yang kontras dengan kelembutan keju mozzarella.",
+          image: "/images/nutella_choco_coin_1790606371202.jpg",
+          badge: "Crunchy Sweet",
+          rating: 4.9,
+          reviews: 340,
+          stretch: "13 cm",
+          sweetness: "85%",
+          savoriness: "60%"
+        },
+        {
+          id: 7,
+          name: "Strawberry",
+          category: "Premium",
+          price: 23000,
+          desc: "Mozzarella + Topping Strawberry segar beraroma manis lembut.",
+          longDesc: "Selai strawberry harum manis dengan sentuhan asam segar berpadu dengan keju mozzarella gurih khas Lucky Cheese.",
+          image: "/images/lucky_cheese_hero_1790606330960.jpg",
+          badge: "Fresh Fruity",
+          rating: 4.7,
+          reviews: 180,
+          stretch: "12 cm",
+          sweetness: "75%",
+          savoriness: "70%"
+        },
+        {
+          id: 8,
+          name: "Oreo",
+          category: "Classic",
+          price: 23000,
+          desc: "Mozzarella + Remahan Oreo renyah melimpah di setiap gigitan koin.",
+          longDesc: "Biskuit Oreo vanila yang dihancurkan kasar memberikan tekstur kriuk istimewa di tengah gurihnya keju mozzarella yang meleleh lembut.",
+          image: "/images/double_mozzarella_1790606359119.jpg",
+          badge: "Oreo Crunch",
+          rating: 4.8,
+          reviews: 295,
+          stretch: "13 cm",
+          sweetness: "70%",
+          savoriness: "70%"
+        },
+        {
+          id: 9,
+          name: "Custard Vanilla Cheese",
+          category: "Premium",
+          price: 23000,
+          desc: "Mozzarella + Custard Vanilla lembut aromatik, manis creamy dan gurih seimbang.",
+          longDesc: "Krim custard lembut dengan aroma vanila susu ala bakery Prancis dipadukan dengan keju mozzarella. Menghasilkan rasa creamy manis-gurih yang lumer di mulut.",
+          image: "/images/double_mozzarella_1790606359119.jpg",
+          badge: "Super Creamy",
+          rating: 4.9,
+          reviews: 310,
+          stretch: "14 cm",
+          sweetness: "70%",
+          savoriness: "75%"
+        },
+        {
+          id: 10,
+          name: "Custard Vanilla",
+          category: "Classic",
+          price: 23000,
+          desc: "Custard Vanilla manis & lembut dengan aroma wangi mentega khas pancake koin.",
+          longDesc: "Varian murni custard vanilla bagi yang menyukai isian manis creamy tradisional. Lembut seperti puding hangat di dalam pancake koin renyah.",
+          image: "/images/lucky_cheese_hero_1790606330960.jpg",
+          badge: "Sweet Creamy",
+          rating: 4.7,
+          reviews: 175,
+          stretch: "Krim Lumer",
+          sweetness: "85%",
+          savoriness: "30%"
+        },
+        {
+          id: 11,
+          name: "Mozza & Pistachio Kunafa",
+          category: "Special",
+          price: 29000,
+          desc: "Perpaduan mozzarella premium dengan pistachio khas Dubai & kataifi kunafa renyah.",
+          longDesc: "Menu viral Dubai Royale! Dibuat dengan pasta pistachio murni impor Dubai, mentega ghee, serpihan kataifi kunafa panggang keemasan yang super renyah, dan keju mozzarella stretchy.",
+          image: "/images/pistachio_kunafa_1790606345173.jpg",
+          badge: "Dubai Viral",
+          rating: 5.0,
+          reviews: 740,
+          stretch: "18 cm",
+          sweetness: "75%",
+          savoriness: "85%"
+        },
+        {
+          id: 12,
+          name: "Ultimate Double Pistachio Kunafa",
+          category: "Special",
+          price: 35000,
+          desc: "Double mozzarella melt, limpahan pistachio Dubai tebal, & ekstra crunchy kunafa.",
+          longDesc: "Mahakarya kemewahan tertinggi dari Lucky Cheese! Double mozzarella New Zealand, pasta pistachio Dubai berlimpah ruah, dan serpihan kunafa kataifi ekstra renyah.",
+          image: "/images/pistachio_kunafa_1790606345173.jpg",
+          badge: "Royale Signature",
+          rating: 5.0,
+          reviews: 920,
+          stretch: "22 cm",
+          sweetness: "80%",
+          savoriness: "90%"
+        }
+      ];
 
-  <!-- MAIN SCRIPT (Self-contained Vanilla JS) -->
-  <script>
-    // 1. DATA MENU LENGKAP
-    const menuData = [
-      {
-        id: 1,
-        name: "Original Cheese",
-        category: "Classic",
-        price: 19000,
-        desc: "Mozzarella gurih, meleleh sempurna dengan adonan pancake koin renyah keemasan.",
-        longDesc: "Menu legendaris paling dicari! Menggunakan keju mozzarella New Zealand pilihan tanpa campuran, menghasilkan tekstur lumer gurih yang stretchy hingga 15cm dengan aroma mentega premium.",
-        image: "public/images/double_mozzarella_1790606359119.jpg",
-        badge: "Best Seller",
-        rating: 4.9,
-        reviews: 412,
-        stretch: "15 cm",
-        sweetness: "15%",
-        savoriness: "95%"
-      },
-      {
-        id: 2,
-        name: "Spesial Double Cheese",
-        category: "Special",
-        price: 25000,
-        desc: "Extra Mozzarella, double the cheese! Sensasi lumer melimpah di setiap gigitan.",
-        longDesc: "Bagi pecinta keju sejati! Dosis ganda mozzarella murni di dalam pancake koin tebal. Tarikan kejunya bisa ditarik panjang hingga lebih dari 25cm. Super gurih dan mengenyangkan.",
-        image: "public/images/double_mozzarella_1790606359119.jpg",
-        badge: "Paling Lumer",
-        rating: 5.0,
-        reviews: 580,
-        stretch: "25 cm",
-        sweetness: "15%",
-        savoriness: "100%"
-      },
-      {
-        id: 3,
-        name: "Blueberry",
-        category: "Premium",
-        price: 23000,
-        desc: "Mozzarella + Topping Blueberry manis segar dengan bulir buah asli.",
-        longDesc: "Perpaduan unik rasa gurih hangatnya mozzarella dengan selai blueberry impor beraroma manis asam menyegarkan. Kombinasi kontras yang sangat nagih di lidah!",
-        image: "public/images/lucky_cheese_hero_1790606330960.jpg",
-        badge: "Sweet & Savory",
-        rating: 4.8,
-        reviews: 210,
-        stretch: "12 cm",
-        sweetness: "75%",
-        savoriness: "70%"
-      },
-      {
-        id: 4,
-        name: "Nutella",
-        category: "Premium",
-        price: 25000,
-        desc: "Mozzarella + Cokelat Nutella Hazelnut Italia yang meleleh legit.",
-        longDesc: "Pasta cokelat hazelnut Nutella asli yang melimpah berpadu dengan gurihnya keju mozzarella hangat. Rasa cokelatnya creamy, harum, dan tidak enek.",
-        image: "public/images/nutella_choco_coin_1790606371202.jpg",
-        badge: "Top Sweet",
-        rating: 4.9,
-        reviews: 489,
-        stretch: "14 cm",
-        sweetness: "85%",
-        savoriness: "65%"
-      },
-      {
-        id: 5,
-        name: "Choco",
-        category: "Classic",
-        price: 23000,
-        desc: "Mozzarella dengan topping Cokelat lembut manis yang memanjakan lidah.",
-        longDesc: "Cokelat leleh lembut berpadu sempurna dengan adonan koin waffle keemasan dan lelehan mozzarella hangat.",
-        image: "public/images/nutella_choco_coin_1790606371202.jpg",
-        badge: "Klasik Favorit",
-        rating: 4.8,
-        reviews: 260,
-        stretch: "12 cm",
-        sweetness: "80%",
-        savoriness: "60%"
-      },
-      {
-        id: 6,
-        name: "Choco Oreo",
-        category: "Premium",
-        price: 25000,
-        desc: "Kombinasi Cokelat + Renyahnya Oreo hitam bertabur di atas keju lumer.",
-        longDesc: "Dua kenikmatan dalam satu pancake: lelehan saus cokelat lumer dan sensasi renyah kepingan biskuit Oreo asli yang kontras dengan kelembutan keju mozzarella.",
-        image: "public/images/nutella_choco_coin_1790606371202.jpg",
-        badge: "Crunchy Sweet",
-        rating: 4.9,
-        reviews: 340,
-        stretch: "13 cm",
-        sweetness: "85%",
-        savoriness: "60%"
-      },
-      {
-        id: 7,
-        name: "Strawberry",
-        category: "Premium",
-        price: 23000,
-        desc: "Mozzarella + Topping Strawberry segar beraroma manis lembut.",
-        longDesc: "Selai strawberry harum manis dengan sentuhan asam segar berpadu dengan keju mozzarella gurih khas Lucky Cheese.",
-        image: "public/images/lucky_cheese_hero_1790606330960.jpg",
-        badge: "Fresh Fruity",
-        rating: 4.7,
-        reviews: 180,
-        stretch: "12 cm",
-        sweetness: "75%",
-        savoriness: "70%"
-      },
-      {
-        id: 8,
-        name: "Oreo",
-        category: "Classic",
-        price: 23000,
-        desc: "Mozzarella + Remahan Oreo renyah melimpah di setiap gigitan koin.",
-        longDesc: "Biskuit Oreo vanila yang dihancurkan kasar memberikan tekstur kriuk istimewa di tengah gurihnya keju mozzarella yang meleleh lembut.",
-        image: "public/images/double_mozzarella_1790606359119.jpg",
-        badge: "Oreo Crunch",
-        rating: 4.8,
-        reviews: 295,
-        stretch: "13 cm",
-        sweetness: "70%",
-        savoriness: "70%"
-      },
-      {
-        id: 9,
-        name: "Custard Vanilla Cheese",
-        category: "Premium",
-        price: 23000,
-        desc: "Mozzarella + Custard Vanilla lembut aromatik, manis creamy dan gurih seimbang.",
-        longDesc: "Krim custard lembut dengan aroma vanila susu ala bakery Prancis dipadukan dengan keju mozzarella. Menghasilkan rasa creamy manis-gurih yang lumer di mulut.",
-        image: "public/images/double_mozzarella_1790606359119.jpg",
-        badge: "Super Creamy",
-        rating: 4.9,
-        reviews: 310,
-        stretch: "14 cm",
-        sweetness: "70%",
-        savoriness: "75%"
-      },
-      {
-        id: 10,
-        name: "Custard Vanilla",
-        category: "Classic",
-        price: 23000,
-        desc: "Custard Vanilla manis & lembut dengan aroma wangi mentega khas pancake koin.",
-        longDesc: "Varian murni custard vanilla bagi yang menyukai isian manis creamy tradisional. Lembut seperti puding hangat di dalam pancake koin renyah.",
-        image: "public/images/lucky_cheese_hero_1790606330960.jpg",
-        badge: "Sweet Creamy",
-        rating: 4.7,
-        reviews: 175,
-        stretch: "Krim Lumer",
-        sweetness: "85%",
-        savoriness: "30%"
-      },
-      {
-        id: 11,
-        name: "Mozza & Pistachio Kunafa",
-        category: "Special",
-        price: 29000,
-        desc: "Perpaduan mozzarella premium dengan pistachio khas Dubai & kataifi kunafa renyah.",
-        longDesc: "Menu viral Dubai Royale! Dibuat dengan pasta pistachio murni impor Dubai, mentega ghee, serpihan kataifi kunafa panggang keemasan yang super renyah, dan keju mozzarella stretchy.",
-        image: "public/images/pistachio_kunafa_1790606345173.jpg",
-        badge: "Dubai Viral",
-        rating: 5.0,
-        reviews: 740,
-        stretch: "18 cm",
-        sweetness: "75%",
-        savoriness: "85%"
-      },
-      {
-        id: 12,
-        name: "Ultimate Double Pistachio Kunafa",
-        category: "Special",
-        price: 35000,
-        desc: "Double mozzarella melt, limpahan pistachio Dubai tebal, & ekstra crunchy kunafa.",
-        longDesc: "Mahakarya kemewahan tertinggi dari Lucky Cheese! Double mozzarella New Zealand, pasta pistachio Dubai berlimpah ruah, dan serpihan kunafa kataifi ekstra renyah.",
-        image: "public/images/pistachio_kunafa_1790606345173.jpg",
-        badge: "Royale Signature",
-        rating: 5.0,
-        reviews: 920,
-        stretch: "22 cm",
-        sweetness: "80%",
-        savoriness: "90%"
-      }
-    ];
+      // 2. STATE MANAGEMENT
+      let currentCategory = 'Semua';
+      let searchQuery = '';
+      let cart = [];
+      let orderType = 'Pick-up';
 
-    // 2. STATE MANAGEMENT
-    let currentCategory = 'Semua';
-    let searchQuery = '';
-    let cart = [];
-    let orderType = 'Pick-up';
-
-    // Format currency helper
-    function formatRupiah(amount) {
-      return new Intl.NumberFormat('id-ID', {
-        style: 'currency',
-        currency: 'IDR',
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 0
-      }).format(amount).replace('IDR', 'Rp');
-    }
-
-    // 3. RENDER MENU ITEMS
-    function renderMenu() {
-      const grid = document.getElementById('menuGrid');
-      const emptyState = document.getElementById('emptySearchState');
-
-      const filtered = menuData.filter(item => {
-        const matchCategory = (currentCategory === 'Semua') || (item.category === currentCategory);
-        const matchSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          item.desc.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          item.category.toLowerCase().includes(searchQuery.toLowerCase());
-        return matchCategory && matchSearch;
-      });
-
-      if (filtered.length === 0) {
-        grid.innerHTML = '';
-        emptyState.classList.remove('hidden');
-        return;
-      } else {
-        emptyState.classList.add('hidden');
+      // Format currency helper
+      function formatRupiah(amount) {
+        return new Intl.NumberFormat('id-ID', {
+          style: 'currency',
+          currency: 'IDR',
+          minimumFractionDigits: 0,
+          maximumFractionDigits: 0
+        }).format(amount).replace('IDR', 'Rp');
       }
 
-      grid.innerHTML = filtered.map(item => `
+      // 3. RENDER MENU ITEMS
+      function renderMenu() {
+        const grid = document.getElementById('menuGrid');
+        const emptyState = document.getElementById('emptySearchState');
+        
+        const filtered = menuData.filter(item => {
+          const matchCategory = (currentCategory === 'Semua') || (item.category === currentCategory);
+          const matchSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                              item.desc.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                              item.category.toLowerCase().includes(searchQuery.toLowerCase());
+          return matchCategory && matchSearch;
+        });
+
+        if (filtered.length === 0) {
+          grid.innerHTML = '';
+          emptyState.classList.remove('hidden');
+          return;
+        } else {
+          emptyState.classList.add('hidden');
+        }
+
+        grid.innerHTML = filtered.map(item => `
           <div class="food-card rounded-3xl overflow-hidden flex flex-col group">
             
             <!-- Food Image Container -->
@@ -1299,18 +1238,19 @@
                 alt="${item.name}" 
                 class="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500"
                 loading="lazy"
-                onerror="this.src='public/images/lucky_cheese_hero_1790606330960.jpg'"
+                onerror="this.src='/images/lucky_cheese_hero_1790606330960.jpg'"
               />
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               
               <!-- Badges -->
               <div class="absolute top-3 left-3 flex items-center gap-1.5">
-                <span class="text-[11px] font-bold px-2.5 py-1 rounded-full ${item.category === 'Special'
-          ? 'bg-amber-400 text-black shadow-md'
-          : item.category === 'Premium'
-            ? 'bg-emerald-500/90 text-black font-extrabold'
-            : 'bg-zinc-800 text-zinc-200 border border-zinc-700'
-        }">
+                <span class="text-[11px] font-bold px-2.5 py-1 rounded-full ${
+                  item.category === 'Special' 
+                    ? 'bg-amber-400 text-black shadow-md' 
+                    : item.category === 'Premium' 
+                    ? 'bg-emerald-500/90 text-black font-extrabold' 
+                    : 'bg-zinc-800 text-zinc-200 border border-zinc-700'
+                }">
                   ${item.category}
                 </span>
                 ${item.badge ? `<span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-black/60 backdrop-blur text-amber-300 border border-amber-500/30">${item.badge}</span>` : ''}
@@ -1368,46 +1308,46 @@
 
           </div>
         `).join('');
-    }
-
-    // 4. FILTERING & SEARCH
-    function filterMenu(category) {
-      currentCategory = category;
-      document.querySelectorAll('.category-btn').forEach(btn => {
-        btn.classList.remove('active', 'bg-gradient-to-r', 'from-orange-500', 'to-amber-500', 'text-black', 'shadow');
-        btn.classList.add('text-zinc-400');
-      });
-
-      const activeBtn = document.getElementById(`filter-${category}`);
-      if (activeBtn) {
-        activeBtn.classList.add('active', 'bg-gradient-to-r', 'from-orange-500', 'to-amber-500', 'text-black', 'shadow');
-        activeBtn.classList.remove('text-zinc-400');
       }
 
-      renderMenu();
-    }
+      // 4. FILTERING & SEARCH
+      function filterMenu(category) {
+        currentCategory = category;
+        document.querySelectorAll('.category-btn').forEach(btn => {
+          btn.classList.remove('active', 'bg-gradient-to-r', 'from-orange-500', 'to-amber-500', 'text-black', 'shadow');
+          btn.classList.add('text-zinc-400');
+        });
 
-    function handleSearchMenu(val) {
-      searchQuery = val;
-      renderMenu();
-    }
+        const activeBtn = document.getElementById(`filter-${category}`);
+        if (activeBtn) {
+          activeBtn.classList.add('active', 'bg-gradient-to-r', 'from-orange-500', 'to-amber-500', 'text-black', 'shadow');
+          activeBtn.classList.remove('text-zinc-400');
+        }
 
-    function resetMenuFilters() {
-      searchQuery = '';
-      const searchInput = document.getElementById('menuSearchInput');
-      if (searchInput) searchInput.value = '';
-      filterMenu('Semua');
-    }
+        renderMenu();
+      }
 
-    // 5. QUICK VIEW MODAL
-    function openProductModal(productId) {
-      const item = menuData.find(m => m.id === productId);
-      if (!item) return;
+      function handleSearchMenu(val) {
+        searchQuery = val;
+        renderMenu();
+      }
 
-      const modal = document.getElementById('productModal');
-      const content = document.getElementById('productModalContent');
+      function resetMenuFilters() {
+        searchQuery = '';
+        const searchInput = document.getElementById('menuSearchInput');
+        if (searchInput) searchInput.value = '';
+        filterMenu('Semua');
+      }
 
-      content.innerHTML = `
+      // 5. QUICK VIEW MODAL
+      function openProductModal(productId) {
+        const item = menuData.find(m => m.id === productId);
+        if (!item) return;
+
+        const modal = document.getElementById('productModal');
+        const content = document.getElementById('productModalContent');
+
+        content.innerHTML = `
           <div class="grid grid-cols-1 md:grid-cols-12 max-h-[85vh] overflow-y-auto">
             
             <!-- Left Image in Modal -->
@@ -1504,178 +1444,178 @@
           </div>
         `;
 
-      modal.classList.remove('hidden');
-    }
+        modal.classList.remove('hidden');
+      }
 
-    let modalQty = 1;
-    function incrementModalQty() {
-      modalQty++;
-      document.getElementById('modalQtyDisplay').innerText = modalQty;
-    }
-    function decrementModalQty() {
-      if (modalQty > 1) {
-        modalQty--;
+      let modalQty = 1;
+      function incrementModalQty() {
+        modalQty++;
         document.getElementById('modalQtyDisplay').innerText = modalQty;
       }
-    }
-
-    function closeProductModal() {
-      modalQty = 1;
-      document.getElementById('productModal').classList.add('hidden');
-    }
-
-    function addModalItemToCart(itemId) {
-      const item = menuData.find(m => m.id === itemId);
-      if (!item) return;
-
-      const noteInput = document.getElementById('modalItemNote');
-      const note = noteInput ? noteInput.value.trim() : '';
-
-      addToCart(item, modalQty, note);
-      closeProductModal();
-    }
-
-    // 6. SHOPPING CART FUNCTIONALITY
-    function quickAddToCart(itemId) {
-      const item = menuData.find(m => m.id === itemId);
-      if (item) {
-        addToCart(item, 1, '');
-      }
-    }
-
-    function addToCart(item, quantity = 1, note = '') {
-      const existingIndex = cart.findIndex(c => c.id === item.id && c.note === note);
-
-      if (existingIndex > -1) {
-        cart[existingIndex].quantity += quantity;
-      } else {
-        cart.push({
-          id: item.id,
-          name: item.name,
-          category: item.category,
-          price: item.price,
-          image: item.image,
-          quantity: quantity,
-          note: note
-        });
-      }
-
-      updateCartUI();
-      showToast(`âœ… ${item.name} berhasil ditambahkan!`);
-    }
-
-    function updateCartQuantity(index, delta) {
-      if (cart[index]) {
-        cart[index].quantity += delta;
-        if (cart[index].quantity <= 0) {
-          cart.splice(index, 1);
-        }
-        updateCartUI();
-      }
-    }
-
-    function removeCartItem(index) {
-      if (cart[index]) {
-        const removedName = cart[index].name;
-        cart.splice(index, 1);
-        updateCartUI();
-        showToast(`ðŸ—‘ï¸ ${removedName} dihapus`);
-      }
-    }
-
-    function setOrderType(type) {
-      orderType = type;
-      const pickupBtn = document.getElementById('typePickupBtn');
-      const dineinBtn = document.getElementById('typeDineinBtn');
-
-      if (type === 'Pick-up') {
-        pickupBtn.className = "px-2.5 py-1 rounded bg-amber-500 text-black font-bold";
-        dineinBtn.className = "px-2.5 py-1 rounded bg-zinc-900 text-zinc-400 hover:text-white";
-      } else {
-        dineinBtn.className = "px-2.5 py-1 rounded bg-amber-500 text-black font-bold";
-        pickupBtn.className = "px-2.5 py-1 rounded bg-zinc-900 text-zinc-400 hover:text-white";
-      }
-    }
-
-    function calculateCart() {
-      let totalItems = 0;
-      let subtotal = 0;
-
-      cart.forEach(item => {
-        totalItems += item.quantity;
-        subtotal += item.price * item.quantity;
-      });
-
-      // Opening Promo: Buy 2 Free 1 logic (setiap 3 item, gratis 1 item termurah!)
-      let freeItemsCount = Math.floor(totalItems / 3);
-      let discount = 0;
-
-      if (freeItemsCount > 0) {
-        // Buat flat list harga untuk mencari item termurah yang digratiskan
-        let allPrices = [];
-        cart.forEach(item => {
-          for (let i = 0; i < item.quantity; i++) {
-            allPrices.push(item.price);
-          }
-        });
-        allPrices.sort((a, b) => a - b);
-        for (let i = 0; i < freeItemsCount; i++) {
-          discount += allPrices[i];
+      function decrementModalQty() {
+        if (modalQty > 1) {
+          modalQty--;
+          document.getElementById('modalQtyDisplay').innerText = modalQty;
         }
       }
 
-      const grandTotal = Math.max(0, subtotal - discount);
+      function closeProductModal() {
+        modalQty = 1;
+        document.getElementById('productModal').classList.add('hidden');
+      }
 
-      return { totalItems, subtotal, discount, grandTotal, freeItemsCount };
-    }
+      function addModalItemToCart(itemId) {
+        const item = menuData.find(m => m.id === itemId);
+        if (!item) return;
 
-    function updateCartUI() {
-      const { totalItems, subtotal, discount, grandTotal, freeItemsCount } = calculateCart();
+        const noteInput = document.getElementById('modalItemNote');
+        const note = noteInput ? noteInput.value.trim() : '';
 
-      // Update badges
-      const badge = document.getElementById('cartCountBadge');
-      const navTotal = document.getElementById('navCartTotal');
-      const drawerCount = document.getElementById('cartDrawerCount');
+        addToCart(item, modalQty, note);
+        closeProductModal();
+      }
 
-      if (badge) badge.innerText = totalItems;
-      if (navTotal) navTotal.innerText = formatRupiah(grandTotal);
-      if (drawerCount) drawerCount.innerText = totalItems;
+      // 6. SHOPPING CART FUNCTIONALITY
+      function quickAddToCart(itemId) {
+        const item = menuData.find(m => m.id === itemId);
+        if (item) {
+          addToCart(item, 1, '');
+        }
+      }
 
-      // Update Promo Bar in Drawer
-      const promoBadgeInfo = document.getElementById('promoBadgeInfo');
-      if (promoBadgeInfo) {
-        if (freeItemsCount > 0) {
-          promoBadgeInfo.innerText = `ðŸŽ‰ Selamat! Kamu dapat ${freeItemsCount} pancake gratis!`;
-          promoBadgeInfo.className = "text-[11px] text-emerald-300 font-bold";
+      function addToCart(item, quantity = 1, note = '') {
+        const existingIndex = cart.findIndex(c => c.id === item.id && c.note === note);
+        
+        if (existingIndex > -1) {
+          cart[existingIndex].quantity += quantity;
         } else {
-          const needed = 3 - (totalItems % 3);
-          promoBadgeInfo.innerText = `Tambah ${needed} item lagi untuk gratis 1!`;
-          promoBadgeInfo.className = "text-[11px] text-zinc-400";
+          cart.push({
+            id: item.id,
+            name: item.name,
+            category: item.category,
+            price: item.price,
+            image: item.image,
+            quantity: quantity,
+            note: note
+          });
+        }
+
+        updateCartUI();
+        showToast(`✅ ${item.name} berhasil ditambahkan!`);
+      }
+
+      function updateCartQuantity(index, delta) {
+        if (cart[index]) {
+          cart[index].quantity += delta;
+          if (cart[index].quantity <= 0) {
+            cart.splice(index, 1);
+          }
+          updateCartUI();
         }
       }
 
-      // Update pricing labels
-      const subtotalEl = document.getElementById('cartSubtotal');
-      const grandTotalEl = document.getElementById('cartGrandTotal');
-      const discountRow = document.getElementById('promoDiscountRow');
-      const discountEl = document.getElementById('cartDiscount');
-
-      if (subtotalEl) subtotalEl.innerText = formatRupiah(subtotal);
-      if (grandTotalEl) grandTotalEl.innerText = formatRupiah(grandTotal);
-
-      if (discount > 0) {
-        if (discountRow) discountRow.classList.remove('hidden');
-        if (discountEl) discountEl.innerText = `- ${formatRupiah(discount)}`;
-      } else {
-        if (discountRow) discountRow.classList.add('hidden');
+      function removeCartItem(index) {
+        if (cart[index]) {
+          const removedName = cart[index].name;
+          cart.splice(index, 1);
+          updateCartUI();
+          showToast(`🗑️ ${removedName} dihapus`);
+        }
       }
 
-      // Render Cart Items
-      const container = document.getElementById('cartItemsContainer');
-      if (!container) return;
+      function setOrderType(type) {
+        orderType = type;
+        const pickupBtn = document.getElementById('typePickupBtn');
+        const dineinBtn = document.getElementById('typeDineinBtn');
 
-      if (cart.length === 0) {
-        container.innerHTML = `
+        if (type === 'Pick-up') {
+          pickupBtn.className = "px-2.5 py-1 rounded bg-amber-500 text-black font-bold";
+          dineinBtn.className = "px-2.5 py-1 rounded bg-zinc-900 text-zinc-400 hover:text-white";
+        } else {
+          dineinBtn.className = "px-2.5 py-1 rounded bg-amber-500 text-black font-bold";
+          pickupBtn.className = "px-2.5 py-1 rounded bg-zinc-900 text-zinc-400 hover:text-white";
+        }
+      }
+
+      function calculateCart() {
+        let totalItems = 0;
+        let subtotal = 0;
+
+        cart.forEach(item => {
+          totalItems += item.quantity;
+          subtotal += item.price * item.quantity;
+        });
+
+        // Opening Promo: Buy 2 Free 1 logic (setiap 3 item, gratis 1 item termurah!)
+        let freeItemsCount = Math.floor(totalItems / 3);
+        let discount = 0;
+
+        if (freeItemsCount > 0) {
+          // Buat flat list harga untuk mencari item termurah yang digratiskan
+          let allPrices = [];
+          cart.forEach(item => {
+            for (let i = 0; i < item.quantity; i++) {
+              allPrices.push(item.price);
+            }
+          });
+          allPrices.sort((a, b) => a - b);
+          for (let i = 0; i < freeItemsCount; i++) {
+            discount += allPrices[i];
+          }
+        }
+
+        const grandTotal = Math.max(0, subtotal - discount);
+
+        return { totalItems, subtotal, discount, grandTotal, freeItemsCount };
+      }
+
+      function updateCartUI() {
+        const { totalItems, subtotal, discount, grandTotal, freeItemsCount } = calculateCart();
+
+        // Update badges
+        const badge = document.getElementById('cartCountBadge');
+        const navTotal = document.getElementById('navCartTotal');
+        const drawerCount = document.getElementById('cartDrawerCount');
+
+        if (badge) badge.innerText = totalItems;
+        if (navTotal) navTotal.innerText = formatRupiah(grandTotal);
+        if (drawerCount) drawerCount.innerText = totalItems;
+
+        // Update Promo Bar in Drawer
+        const promoBadgeInfo = document.getElementById('promoBadgeInfo');
+        if (promoBadgeInfo) {
+          if (freeItemsCount > 0) {
+            promoBadgeInfo.innerText = `🎉 Selamat! Kamu dapat ${freeItemsCount} pancake gratis!`;
+            promoBadgeInfo.className = "text-[11px] text-emerald-300 font-bold";
+          } else {
+            const needed = 3 - (totalItems % 3);
+            promoBadgeInfo.innerText = `Tambah ${needed} item lagi untuk gratis 1!`;
+            promoBadgeInfo.className = "text-[11px] text-zinc-400";
+          }
+        }
+
+        // Update pricing labels
+        const subtotalEl = document.getElementById('cartSubtotal');
+        const grandTotalEl = document.getElementById('cartGrandTotal');
+        const discountRow = document.getElementById('promoDiscountRow');
+        const discountEl = document.getElementById('cartDiscount');
+
+        if (subtotalEl) subtotalEl.innerText = formatRupiah(subtotal);
+        if (grandTotalEl) grandTotalEl.innerText = formatRupiah(grandTotal);
+
+        if (discount > 0) {
+          if (discountRow) discountRow.classList.remove('hidden');
+          if (discountEl) discountEl.innerText = `- ${formatRupiah(discount)}`;
+        } else {
+          if (discountRow) discountRow.classList.add('hidden');
+        }
+
+        // Render Cart Items
+        const container = document.getElementById('cartItemsContainer');
+        if (!container) return;
+
+        if (cart.length === 0) {
+          container.innerHTML = `
             <div class="py-16 text-center space-y-3">
               <div class="w-14 h-14 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-600 text-xl mx-auto">
                 <i class="fa-solid fa-basket-shopping"></i>
@@ -1687,10 +1627,10 @@
               </button>
             </div>
           `;
-        return;
-      }
+          return;
+        }
 
-      container.innerHTML = cart.map((item, index) => `
+        container.innerHTML = cart.map((item, index) => `
           <div class="pt-3 pb-3 flex items-start justify-between gap-3">
             <div class="flex items-center gap-3">
               <img 
@@ -1722,150 +1662,149 @@
             </div>
           </div>
         `).join('');
-    }
-
-    // Drawer Open/Close
-    function openCartDrawer() {
-      updateCartUI();
-      document.getElementById('cartDrawer').classList.remove('hidden');
-    }
-    function closeCartDrawer() {
-      document.getElementById('cartDrawer').classList.add('hidden');
-    }
-
-    // 7. WHATSAPP PRE-ORDER GENERATOR
-    function submitOrderWhatsApp() {
-      if (cart.length === 0) {
-        showToast("âš ï¸ Keranjang belanja masih kosong!");
-        return;
       }
 
-      const nameInput = document.getElementById('customerNameInput');
-      const timeInput = document.getElementById('pickupTimeInput');
-      const notesInput = document.getElementById('orderNotesInput');
-
-      const customerName = nameInput ? nameInput.value.trim() : '';
-      const pickupTime = timeInput ? timeInput.value.trim() : 'Segera';
-      const specialNotes = notesInput ? notesInput.value.trim() : '-';
-
-      if (!customerName) {
-        showToast("âš ï¸ Silakan isi Nama Pemesan terlebih dahulu!");
-        if (nameInput) nameInput.focus();
-        return;
+      // Drawer Open/Close
+      function openCartDrawer() {
+        updateCartUI();
+        document.getElementById('cartDrawer').classList.remove('hidden');
+      }
+      function closeCartDrawer() {
+        document.getElementById('cartDrawer').classList.add('hidden');
       }
 
-      const { subtotal, discount, grandTotal, totalItems } = calculateCart();
-      const orderId = `LC-${Math.floor(1000 + Math.random() * 9000)}`;
+      // 7. WHATSAPP PRE-ORDER GENERATOR
+      function submitOrderWhatsApp() {
+        if (cart.length === 0) {
+          showToast("⚠️ Keranjang belanja masih kosong!");
+          return;
+        }
 
-      let message = `*HALO LUCKY CHEESE KEDIRI!* ðŸ§€âœ¨\n`;
-      message += `Saya ingin pre-order Korean Cheese Coin Pancake:\n\n`;
-      message += `ðŸ“‹ *Data Pemesanan:*\n`;
-      message += `â€¢ ID Order: #${orderId}\n`;
-      message += `â€¢ Nama: ${customerName}\n`;
-      message += `â€¢ Tipe: ${orderType}\n`;
-      message += `â€¢ Rencana Ambil: ${pickupTime}\n`;
-      if (specialNotes && specialNotes !== '-') {
-        message += `â€¢ Catatan: ${specialNotes}\n`;
-      }
-      message += `\nðŸ›’ *Rincian Menu (${totalItems} item):*\n`;
+        const nameInput = document.getElementById('customerNameInput');
+        const timeInput = document.getElementById('pickupTimeInput');
+        const notesInput = document.getElementById('orderNotesInput');
 
-      cart.forEach((item, i) => {
-        message += `${i + 1}. ${item.name} (${item.quantity}x) - ${formatRupiah(item.price * item.quantity)}`;
-        if (item.note) message += ` _[Catatan: ${item.note}]_`;
-        message += `\n`;
-      });
+        const customerName = nameInput ? nameInput.value.trim() : '';
+        const pickupTime = timeInput ? timeInput.value.trim() : 'Segera';
+        const specialNotes = notesInput ? notesInput.value.trim() : '-';
 
-      message += `\nðŸ’° *Total Tagihan:*\n`;
-      message += `â€¢ Subtotal: ${formatRupiah(subtotal)}\n`;
-      if (discount > 0) {
-        message += `â€¢ Promo Buy 2 Free 1: -${formatRupiah(discount)}\n`;
-      }
-      message += `â€¢ *TOTAL BAYAR: ${formatRupiah(grandTotal)}*\n\n`;
-      message += `Mohon konfirmasi pesanan dan estimasi waktu penyiapannya. Terima kasih! ðŸª™`;
+        if (!customerName) {
+          showToast("⚠️ Silakan isi Nama Pemesan terlebih dahulu!");
+          if (nameInput) nameInput.focus();
+          return;
+        }
 
-      const waNumber = "6281234567890";
-      const encodedUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
+        const { subtotal, discount, grandTotal, totalItems } = calculateCart();
+        const orderId = `LC-${Math.floor(1000 + Math.random() * 9000)}`;
 
-      // Open WhatsApp in new tab
-      window.open(encodedUrl, '_blank');
-    }
+        let message = `*HALO LUCKY CHEESE KEDIRI!* 🧀✨\n`;
+        message += `Saya ingin pre-order Korean Cheese Coin Pancake:\n\n`;
+        message += `📋 *Data Pemesanan:*\n`;
+        message += `• ID Order: #${orderId}\n`;
+        message += `• Nama: ${customerName}\n`;
+        message += `• Tipe: ${orderType}\n`;
+        message += `• Rencana Ambil: ${pickupTime}\n`;
+        if (specialNotes && specialNotes !== '-') {
+          message += `• Catatan: ${specialNotes}\n`;
+        }
+        message += `\n🛒 *Rincian Menu (${totalItems} item):*\n`;
 
-    // 8. QRIS MODAL & PAYMENT SIMULATION
-    function openQrisModal() {
-      if (cart.length === 0) {
-        showToast("âš ï¸ Tambahkan menu ke keranjang terlebih dahulu!");
-        return;
-      }
-      const { grandTotal } = calculateCart();
-      document.getElementById('qrisTotalAmount').innerText = formatRupiah(grandTotal);
-      document.getElementById('qrisModal').classList.remove('hidden');
-    }
-
-    function closeQrisModal() {
-      document.getElementById('qrisModal').classList.add('hidden');
-    }
-
-    function confirmQrisPayment() {
-      closeQrisModal();
-      closeCartDrawer();
-
-      const randomOrderId = `LC-${Math.floor(1000 + Math.random() * 9000)}`;
-      document.getElementById('receiptOrderId').innerText = `#${randomOrderId}`;
-      document.getElementById('successModal').classList.remove('hidden');
-
-      // Reset cart
-      cart = [];
-      updateCartUI();
-    }
-
-    function closeSuccessModal() {
-      document.getElementById('successModal').classList.add('hidden');
-    }
-
-    // 9. TOAST NOTIFICATION HELPER
-    let toastTimeout;
-    function showToast(message) {
-      const toast = document.getElementById('toastNotification');
-      const text = document.getElementById('toastMessage');
-      if (!toast || !text) return;
-
-      text.innerText = message;
-      toast.classList.remove('translate-y-24', 'opacity-0');
-      toast.classList.add('translate-y-0', 'opacity-100');
-
-      clearTimeout(toastTimeout);
-      toastTimeout = setTimeout(() => {
-        toast.classList.add('translate-y-24', 'opacity-0');
-        toast.classList.remove('translate-y-0', 'opacity-100');
-      }, 3200);
-    }
-
-    // 10. INITIALIZATION
-    document.addEventListener('DOMContentLoaded', () => {
-      renderMenu();
-
-      // Navbar Cart Click
-      const openCartBtn = document.getElementById('openCartBtn');
-      if (openCartBtn) {
-        openCartBtn.addEventListener('click', openCartDrawer);
-      }
-
-      // Mobile Menu Toggle
-      const mobileBtn = document.getElementById('mobileMenuBtn');
-      const mobileMenu = document.getElementById('mobileMenu');
-      if (mobileBtn && mobileMenu) {
-        mobileBtn.addEventListener('click', () => {
-          mobileMenu.classList.toggle('hidden');
+        cart.forEach((item, i) => {
+          message += `${i + 1}. ${item.name} (${item.quantity}x) - ${formatRupiah(item.price * item.quantity)}`;
+          if (item.note) message += ` _[Catatan: ${item.note}]_`;
+          message += `\n`;
         });
-        // Close mobile menu on link click
-        mobileMenu.querySelectorAll('a').forEach(link => {
-          link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
+
+        message += `\n💰 *Total Tagihan:*\n`;
+        message += `• Subtotal: ${formatRupiah(subtotal)}\n`;
+        if (discount > 0) {
+          message += `• Promo Buy 2 Free 1: -${formatRupiah(discount)}\n`;
+        }
+        message += `• *TOTAL BAYAR: ${formatRupiah(grandTotal)}*\n\n`;
+        message += `Mohon konfirmasi pesanan dan estimasi waktu penyiapannya. Terima kasih! 🪙`;
+
+        const waNumber = "6281234567890";
+        const encodedUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
+
+        // Open WhatsApp in new tab
+        window.open(encodedUrl, '_blank');
+      }
+
+      // 8. QRIS MODAL & PAYMENT SIMULATION
+      function openQrisModal() {
+        if (cart.length === 0) {
+          showToast("⚠️ Tambahkan menu ke keranjang terlebih dahulu!");
+          return;
+        }
+        const { grandTotal } = calculateCart();
+        document.getElementById('qrisTotalAmount').innerText = formatRupiah(grandTotal);
+        document.getElementById('qrisModal').classList.remove('hidden');
+      }
+
+      function closeQrisModal() {
+        document.getElementById('qrisModal').classList.add('hidden');
+      }
+
+      function confirmQrisPayment() {
+        closeQrisModal();
+        closeCartDrawer();
+        
+        const randomOrderId = `LC-${Math.floor(1000 + Math.random() * 9000)}`;
+        document.getElementById('receiptOrderId').innerText = `#${randomOrderId}`;
+        document.getElementById('successModal').classList.remove('hidden');
+
+        // Reset cart
+        cart = [];
+        updateCartUI();
+      }
+
+      function closeSuccessModal() {
+        document.getElementById('successModal').classList.add('hidden');
+      }
+
+      // 9. TOAST NOTIFICATION HELPER
+      let toastTimeout;
+      function showToast(message) {
+        const toast = document.getElementById('toastNotification');
+        const text = document.getElementById('toastMessage');
+        if (!toast || !text) return;
+
+        text.innerText = message;
+        toast.classList.remove('translate-y-24', 'opacity-0');
+        toast.classList.add('translate-y-0', 'opacity-100');
+
+        clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(() => {
+          toast.classList.add('translate-y-24', 'opacity-0');
+          toast.classList.remove('translate-y-0', 'opacity-100');
+        }, 3200);
+      }
+
+      // 10. INITIALIZATION
+      document.addEventListener('DOMContentLoaded', () => {
+        renderMenu();
+
+        // Navbar Cart Click
+        const openCartBtn = document.getElementById('openCartBtn');
+        if (openCartBtn) {
+          openCartBtn.addEventListener('click', openCartDrawer);
+        }
+
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        if (mobileBtn && mobileMenu) {
+          mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
           });
-        });
-      }
-    });
-  </script>
-</body>
-
+          // Close mobile menu on link click
+          mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+              mobileMenu.classList.add('hidden');
+            });
+          });
+        }
+      });
+    </script>
+  </body>
 </html>

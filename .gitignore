@@ -1,8 +1,31 @@
+# Dependencies
 node_modules/
+
+# Build Output
 build/
 dist/
 coverage/
+
+# System Files
 .DS_Store
+Thumbs.db
+
+# Logs
 *.log
-.env*
+npm-debug.log*
+
+# Environment Variables (JANGAN commit .env asli!)
+.env
+.env.local
+.env.production
+# Tapi .env.example BOLEH di-commit:
 !.env.example
+
+# IDE / Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel/
